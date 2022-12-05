@@ -1,22 +1,20 @@
-SparkFun <PRODUCT NAME>
+SparkFun <Buck Regulator AP3429A>
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![Buck Regulator AP3429A](URL for picture of part)](URL for product on Sparkfun.com)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*Buck Regulator AP3429A (SKU)*](URL for product on Sparkfun.com)
 
-<Basic description of the part.>
+<Insert description here.>
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
+    * **/Production** - Production panel files (.brd)
 * **/Libraries** - Libraries for use with the <PRODUCT NAME>
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+
 
 Documentation
 --------------
