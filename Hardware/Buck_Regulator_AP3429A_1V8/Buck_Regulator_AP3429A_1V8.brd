@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -196,8 +196,7 @@
 <wire x1="7.366" y1="10.541" x2="7.62" y2="10.795" width="0.1778" layer="21"/>
 <wire x1="7.366" y1="10.541" x2="7.62" y2="10.287" width="0.1778" layer="21"/>
 <text x="20.447" y="0.508" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
-<text x="16.51" y="-17.78" size="1.778" layer="51" font="vector" ratio="10" distance="15">M. Chodikov</text>
-<text x="5.08" y="46.99" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
+<text x="16.51" y="-41.91" size="1.778" layer="51" font="vector" ratio="10" distance="15">M. Chodikov</text>
 <wire x1="5.334" y1="11.176" x2="5.334" y2="10.414" width="0.2032" layer="22"/>
 <wire x1="5.334" y1="10.414" x2="4.826" y2="10.414" width="0.2032" layer="22"/>
 <wire x1="4.699" y1="10.414" x2="4.953" y2="10.16" width="0.2032" layer="22"/>
@@ -208,16 +207,21 @@
 <wire x1="4.699" y1="10.414" x2="4.953" y2="10.668" width="0.2032" layer="22"/>
 <rectangle x1="6.35" y1="3.81" x2="21.59" y2="16.51" layer="30" rot="R180"/>
 <wire x1="5.08" y1="11.43" x2="5.334" y2="11.176" width="0.2032" layer="22"/>
-<dimension x1="25.4" y1="25.4" x2="22.86" y2="25.4" x3="24.13" y3="29.21" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="22.86" x2="0" y2="22.86" x3="1.27" y3="35.56" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="25.4" y1="25.4" x2="0" y2="25.4" x3="12.7" y3="40.64" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="2.54" x2="2.54" y2="0" x3="-2.54" y3="1.27" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="22.86" x2="2.54" y2="25.4" x3="-2.54" y3="24.13" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="3.683" y1="7.28" x2="3.81" y2="0" x3="-8.89" y3="3.64" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="3.683" y1="7.28" x2="3.81" y2="10.795" x3="-13.97" y3="9.0375" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="0" y1="25.4" x2="0" y2="0" x3="-20.32" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="24.13" y1="7.493" x2="24.13" y2="0" x3="30.48" y3="3.7465" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="24.13" y1="7.62" x2="24.13" y2="10.16" x3="30.48" y3="8.89" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="2.54" x2="0" y2="2.54" x3="1.27" y3="-3.81" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="3.683" y1="7.28" x2="3.683" y2="0" x3="-3.81" y3="3.64" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="24.13" y1="7.62" x2="24.13" y2="0" x3="-7.62" y3="3.81" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="24.13" y1="10.16" x2="24.13" y2="0" x3="-12.7" y3="5.08" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="3.683" y1="10.795" x2="3.937" y2="0" x3="-17.78" y3="5.3975" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<text x="-22.86" y="-10.16" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
+<dimension x1="2.54" y1="2.54" x2="2.54" y2="0" x3="-21.59" y3="1.27" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="2.54" y1="22.86" x2="2.54" y2="0" x3="-25.4" y3="11.43" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="13.335" y1="24.003" x2="13.97" y2="0" x3="-29.21" y3="12.0015" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="0" x2="2.54" y2="25.4" x3="-33.02" y3="12.7" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="3.683" y1="17.78" x2="0" y2="17.78" x3="1.8415" y3="-7.62" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="13.335" y1="24.003" x2="0" y2="24.003" x3="6.6675" y3="-12.7" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="22.86" y1="2.54" x2="0" y2="2.54" x3="11.43" y3="-17.78" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="24.13" y1="7.62" x2="0" y2="7.62" x3="12.065" y3="-22.86" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="25.4" y1="0" x2="0" y2="0" x3="12.7" y3="-27.94" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Jumpers">
@@ -5358,9 +5362,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="24.638" y="0.762" smashed="yes"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.762" y="24.638" smashed="yes" rot="MR0"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.762" y="24.638" smashed="yes"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-10.16" y="-17.78" smashed="yes">
-<attribute name="DESIGNER" value="M. Chodikov" x="69.85" y="-30.48" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="v01" x="69.85" y="-30.48" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-10.16" y="-41.91" smashed="yes">
+<attribute name="DESIGNER" value="M. Chodikov" x="69.85" y="-54.61" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="v01" x="69.85" y="-54.61" size="1.778" layer="27" display="off"/>
 </element>
 <element name="L1" library="SparkFun-Coils" package="INDUCTOR_4X4MM" value="2.2μH" x="16.256" y="8.509" smashed="yes">
 <attribute name="NAME" x="16.256" y="10.951" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -5666,7 +5670,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </mfgpreviewcolors>
 <errors>
 <approved hash="19,16,33c25f9f24b470ba"/>
-<approved hash="19,16,af2e744131abd297"/>
 </errors>
 </board>
 </drawing>
