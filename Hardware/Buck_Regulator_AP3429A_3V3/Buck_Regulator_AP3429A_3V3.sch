@@ -22200,19 +22200,18 @@ Breadboard-friendly pins.
 <wire x1="-5.7" y1="-4.5" x2="-5.6" y2="-4.5" width="0.2032" layer="21"/>
 <wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="22"/>
 <polygon width="0.1524" layer="29">
-<vertex x="-4.064" y="5.715"/>
-<vertex x="-2.032" y="5.715" curve="-180"/>
-<vertex x="-2.032" y="3.683"/>
-<vertex x="-4.064" y="3.683" curve="-180"/>
+<vertex x="-4.064" y="-3.683"/>
+<vertex x="-2.032" y="-3.683" curve="-180"/>
+<vertex x="-2.032" y="-5.715"/>
+<vertex x="-4.064" y="-5.715" curve="-180"/>
 </polygon>
 <polygon width="0.1524" layer="30">
-<vertex x="-4.064" y="-3.683"/>
-<vertex x="-2.032" y="-3.683" curve="-90"/>
-<vertex x="-1.016" y="-4.699" curve="-90"/>
-<vertex x="-2.032" y="-5.715"/>
-<vertex x="-3.937" y="-5.715"/>
-<vertex x="-4.064" y="-5.715" curve="-90"/>
-<vertex x="-5.08" y="-4.699" curve="-90"/>
+<vertex x="-4.064" y="5.715"/>
+<vertex x="-2.032" y="5.715" curve="-90"/>
+<vertex x="-1.016" y="4.699" curve="-90"/>
+<vertex x="-2.032" y="3.683"/>
+<vertex x="-4.064" y="3.683" curve="-90"/>
+<vertex x="-5.08" y="4.699" curve="-90"/>
 </polygon>
 <polygon width="0.01" layer="46">
 <vertex x="-4" y="5.2"/>
@@ -23585,10 +23584,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C1" library="SparkFun-Capacitors" deviceset="22UF" device="-0805-16V-20%" value="22uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="22UF" device="-0805-16V-20%" value="22uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="22UF" device="-0805-16V-20%" value="22uF"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="POWER_JACK" device="POWER_JACK_SLOT_COMBO"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="453KOHM" device="-0603-1/10W-1%" value="453k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="POWER_JACK" device="POWER_JACK_SLOT_COMBO"/>
 </parts>
 <sheets>
 <sheet>
@@ -23729,9 +23728,6 @@ LED.</text>
 <attribute name="NAME" x="113.284" y="104.521" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="113.284" y="99.441" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J2" gate="G$1" x="68.58" y="27.94" smashed="yes">
-<attribute name="NAME" x="58.42" y="27.94" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="R1" gate="G$1" x="88.9" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.376" y="101.6" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="90.424" y="101.6" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
@@ -23743,6 +23739,9 @@ LED.</text>
 <instance part="R3" gate="G$1" x="213.36" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="211.836" y="106.68" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="214.884" y="106.68" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="J2" gate="G$1" x="68.58" y="27.94" smashed="yes">
+<attribute name="NAME" x="58.42" y="27.94" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>

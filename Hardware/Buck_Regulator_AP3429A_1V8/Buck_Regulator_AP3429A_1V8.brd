@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -25,7 +25,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -195,7 +195,7 @@
 <wire x1="8.001" y1="10.541" x2="7.366" y2="10.541" width="0.1778" layer="21"/>
 <wire x1="7.366" y1="10.541" x2="7.62" y2="10.795" width="0.1778" layer="21"/>
 <wire x1="7.366" y1="10.541" x2="7.62" y2="10.287" width="0.1778" layer="21"/>
-<text x="20.447" y="0.508" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
+<text x="20.447" y="0.508" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
 <text x="16.51" y="-44.45" size="1.778" layer="51" font="vector" ratio="10" distance="15">M. Chodikov</text>
 <wire x1="5.334" y1="11.176" x2="5.334" y2="10.414" width="0.2032" layer="22"/>
 <wire x1="5.334" y1="10.414" x2="4.826" y2="10.414" width="0.2032" layer="22"/>
@@ -1129,19 +1129,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.7" y1="-4.5" x2="-5.6" y2="-4.5" width="0.2032" layer="21"/>
 <wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="22"/>
 <polygon width="0.1524" layer="29">
-<vertex x="-4.064" y="5.715"/>
-<vertex x="-2.032" y="5.715" curve="-180"/>
-<vertex x="-2.032" y="3.683"/>
-<vertex x="-4.064" y="3.683" curve="-180"/>
+<vertex x="-4.064" y="-3.683"/>
+<vertex x="-2.032" y="-3.683" curve="-180"/>
+<vertex x="-2.032" y="-5.715"/>
+<vertex x="-4.064" y="-5.715" curve="-180"/>
 </polygon>
 <polygon width="0.1524" layer="30">
-<vertex x="-4.064" y="-3.683"/>
-<vertex x="-2.032" y="-3.683" curve="-90"/>
-<vertex x="-1.016" y="-4.699" curve="-90"/>
-<vertex x="-2.032" y="-5.715"/>
-<vertex x="-3.937" y="-5.715"/>
-<vertex x="-4.064" y="-5.715" curve="-90"/>
-<vertex x="-5.08" y="-4.699" curve="-90"/>
+<vertex x="-4.064" y="5.715"/>
+<vertex x="-2.032" y="5.715" curve="-90"/>
+<vertex x="-1.016" y="4.699" curve="-90"/>
+<vertex x="-2.032" y="3.683"/>
+<vertex x="-4.064" y="3.683" curve="-90"/>
+<vertex x="-5.08" y="4.699" curve="-90"/>
 </polygon>
 <polygon width="0.01" layer="46">
 <vertex x="-4" y="5.2"/>
@@ -5469,8 +5468,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CAP-14260" x="9.779" y="5.842" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.89" y="5.842" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT_BOTH" value="POWER_JACKPOWER_JACK_SLOT_COMBO" x="13.335" y="24.003" smashed="yes" rot="R90"/>
 <element name="U$16" library="output" package="BUCK_REGULATOR_AP3429#A3453" value="" x="1.524" y="12.827" smashed="yes" rot="MR90"/>
+<element name="J2" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT_BOTH" value="POWER_JACKPOWER_JACK_SLOT_COMBO" x="13.335" y="24.003" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="VIN">
@@ -5478,7 +5477,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J3" pad="2"/>
 <contactref element="J1" pad="1"/>
 <contactref element="C1" pad="1"/>
-<contactref element="J2" pad="PWR"/>
 <polygon width="0.2032" layer="1" isolate="0.3048">
 <vertex x="2.159" y="18.923"/>
 <vertex x="2.159" y="16.637"/>
@@ -5501,6 +5499,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="4.953" y="19.431"/>
 <vertex x="2.667" y="19.431"/>
 </polygon>
+<contactref element="J2" pad="PWR"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="2"/>
@@ -5521,7 +5520,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="C1" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
-<contactref element="J2" pad="GND"/>
 <polygon width="0.2032" layer="1" isolate="0.3048" rank="2">
 <vertex x="0" y="0"/>
 <vertex x="0" y="25.4"/>
@@ -5559,6 +5557,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="10.795" y="22.225" extent="1-16" drill="0.35"/>
 <via x="16.51" y="24.13" extent="1-16" drill="0.35"/>
 <via x="10.16" y="24.13" extent="1-16" drill="0.35"/>
+<contactref element="J2" pad="GND"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="3"/>
@@ -5668,14 +5667,14 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8000000"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8FF0000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFFFFFF"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,16,af2e744131abd297"/>
+<approved hash="19,16,33c25f9f24b470ba"/>
 </errors>
 </board>
 </drawing>
