@@ -23542,7 +23542,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device="">
 <attribute name="DESIGNER" value="M. Chodikov"/>
-<attribute name="REV" value="v01"/>
+<attribute name="REV" value="v10"/>
 </part>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
