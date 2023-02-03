@@ -23702,7 +23702,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="5.08" y="127" size="1.524" layer="97" font="vector">Input Range: 2.7V to 5.5V</text>
+<text x="53.34" y="137.16" size="1.524" layer="97" font="vector">Input Range: 2.7V to 5.5V</text>
 <wire x1="0" y1="0" x2="139.7" y2="0" width="0.2032" layer="94"/>
 <wire x1="241.3" y1="35.56" x2="241.3" y2="149.86" width="0.2032" layer="94"/>
 <wire x1="241.3" y1="149.86" x2="0" y2="149.86" width="0.2032" layer="94"/>
@@ -23716,14 +23716,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="60.96" y="53.34" size="2.54" layer="94" font="vector" align="bottom-center">Connectors</text>
 <wire x1="139.7" y1="63.5" x2="0" y2="63.5" width="0.2032" layer="97" style="longdash"/>
 <text x="58.42" y="37.084" size="1.524" layer="97" font="vector">POWER_JACK</text>
-<text x="104.14" y="127" size="1.524" layer="97" font="vector">Output Current: 2A MAX</text>
+<text x="53.34" y="132.08" size="1.524" layer="97" font="vector">Output Current: 2A MAX</text>
 <text x="45.72" y="5.08" size="1.524" layer="97" font="vector">WARNING: Only connect one Vin input at a time</text>
 <wire x1="139.7" y1="63.5" x2="139.7" y2="149.86" width="0.2032" layer="97" style="longdash"/>
 <text x="162.56" y="139.7" size="2.54" layer="94" font="vector" align="bottom-center">Power Output Indicator</text>
 <text x="223.52" y="116.84" size="1.27" layer="97" font="vector">Cut trace
 to disconnect
 LED.</text>
-<text x="104.14" y="129.54" size="1.524" layer="97" font="vector">Output Voltage: 1.8V</text>
+<text x="55.88" y="134.62" size="1.524" layer="97" font="vector">Output Voltage: 1.8V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$2" x="139.7" y="0" smashed="yes">
