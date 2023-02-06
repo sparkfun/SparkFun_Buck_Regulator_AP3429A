@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -1126,19 +1126,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 <package name="POWER_JACK_PTH_SLOT_BOTH">
 <wire x1="-5.7" y1="4.5" x2="-5.7" y2="2.7" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.5" x2="7.7" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="7.7" y1="4.5" x2="5" y2="4.5" width="0.2032" layer="51"/>
-<wire x1="7.7" y1="4.5" x2="7.7" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="5" y1="4.5" x2="-0.3" y2="4.5" width="0.2032" layer="22"/>
 <wire x1="-5.7" y1="4.5" x2="-5.6" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="21"/>
 <pad name="GND" x="0" y="0" drill="1" diameter="2" shape="long" rot="R90"/>
 <pad name="GNDBREAK" x="-3.048" y="4.699" drill="1" diameter="2" shape="long" rot="R180" stop="no"/>
 <pad name="PWR" x="-5.969" y="0" drill="1" diameter="2.3" shape="long" rot="R90"/>
 <pad name="GNDBREAK1" x="-3.048" y="-4.699" drill="1" diameter="2" shape="long" stop="no"/>
 <wire x1="-5.7" y1="-4.5" x2="-5.7" y2="-2.7" width="0.2032" layer="21"/>
 <wire x1="-5.7" y1="-4.5" x2="-5.6" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="22"/>
 <polygon width="0.1524" layer="29">
 <vertex x="-4.064" y="-3.683"/>
 <vertex x="-2.032" y="-3.683" curve="-180"/>
@@ -5483,7 +5477,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="RES-07856" x="18.034" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="18.034" y="3.429" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT_BOTH" value="POWER_JACKPOWER_JACK_SLOT_COMBO" x="13.335" y="24.003" smashed="yes" rot="MR90"/>
 <element name="C5" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="11.049" y="5.842" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.811" y="5.842" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08604" x="11.049" y="5.842" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -5494,6 +5487,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CAP-13930" x="12.827" y="5.842" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.065" y="5.842" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
+<element name="J2" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT_BOTH" value="POWER_JACKPOWER_JACK_SLOT_COMBO" x="13.335" y="24.003" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="VIN">
@@ -5579,11 +5573,11 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="16.51" y="24.13" extent="1-16" drill="0.35"/>
 <via x="10.16" y="24.13" extent="1-16" drill="0.35"/>
 <contactref element="R2" pad="1"/>
-<contactref element="J2" pad="GND"/>
 <contactref element="C5" pad="2"/>
 <contactref element="C6" pad="2"/>
 <via x="13.97" y="5.08" extent="1-16" drill="0.381"/>
 <via x="4.572" y="4.572" extent="1-16" drill="0.381"/>
+<contactref element="J2" pad="GND"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="3"/>
