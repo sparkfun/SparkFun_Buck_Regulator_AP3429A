@@ -41,7 +41,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -222,6 +222,10 @@
 <dimension x1="22.86" y1="2.54" x2="0" y2="2.54" x3="11.43" y3="-17.78" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="24.13" y1="7.62" x2="0" y2="7.62" x3="12.065" y3="-21.59" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="25.4" y2="0" x3="12.7" y3="-26.67" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="33.528" y="4.699" size="1.778" layer="51" font="vector">Board thickness is 1.6mm
+2-Layer
+1oz copper outer
+1oz copper inner</text>
 </plain>
 <libraries>
 <library name="SparkFun-Jumpers">
@@ -1050,6 +1054,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="4.091" y="-0.565"/>
 <vertex x="4.091" y="0.675"/>
 </polygon>
+</package>
+<package name="ORDERING_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Indicates that the PCB material, colors, copper weights, and/or thickness are non-standard.&lt;/p&gt;
+&lt;p&gt;(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)&lt;/p&gt;
+&lt;p&gt;Use 0.7" Vector font @ 8% ratio</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Ordering Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
 </package>
 </packages>
 </library>
@@ -5485,6 +5504,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="VALUE" x="12.065" y="5.842" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT_BOTH" value="POWER_JACKPOWER_JACK_SLOT_COMBO" x="13.335" y="24.003" smashed="yes" rot="R90"/>
+<element name="U$17" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="31.75" y="25.4" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VIN">
@@ -5627,15 +5647,15 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="1.905" y1="20.574" x2="0.762" y2="19.431" width="0.2032" layer="16"/>
 <wire x1="4.9657" y1="20.9677" x2="4.572" y2="20.574" width="0.2032" layer="16"/>
 <wire x1="4.572" y1="20.574" x2="1.905" y2="20.574" width="0.2032" layer="16"/>
-<wire x1="13.247" y1="2.667" x2="17.184" y2="2.667" width="0.2032" layer="1"/>
-<wire x1="13.247" y1="2.667" x2="12.612" y2="3.302" width="0.2032" layer="1"/>
-<wire x1="12.612" y1="3.302" x2="7.493" y2="3.302" width="0.2032" layer="1"/>
-<via x="6.477" y="4.318" extent="1-16" drill="0.381"/>
-<wire x1="6.477" y1="4.318" x2="7.493" y2="3.302" width="0.2032" layer="1"/>
 <wire x1="0.762" y1="19.431" x2="0.762" y2="7.366" width="0.2032" layer="16"/>
 <wire x1="0.762" y1="7.366" x2="2.54" y2="5.588" width="0.2032" layer="16"/>
-<wire x1="5.207" y1="5.588" x2="6.477" y2="4.318" width="0.2032" layer="16"/>
-<wire x1="5.207" y1="5.588" x2="2.54" y2="5.588" width="0.2032" layer="16"/>
+<via x="15.44930625" y="2.667" extent="1-16" drill="0.35"/>
+<wire x1="15.44930625" y1="2.667" x2="17.184" y2="2.667" width="0.2032" layer="1"/>
+<wire x1="5.207" y1="5.588" x2="5.588" y2="5.207" width="0.2032" layer="16"/>
+<wire x1="2.54" y1="5.588" x2="5.207" y2="5.588" width="0.2032" layer="16"/>
+<wire x1="5.588" y1="5.207" x2="5.588" y2="3.302" width="0.2032" layer="16"/>
+<wire x1="5.588" y1="3.302" x2="6.223" y2="2.667" width="0.2032" layer="16"/>
+<wire x1="6.223" y1="2.667" x2="15.44930625" y2="2.667" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="D1" pad="A"/>
@@ -5668,7 +5688,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="13.843" y="5.842"/>
 <vertex x="19.304" y="5.842"/>
 <vertex x="19.304" y="8.509"/>
-<vertex x="13.97" y="8.509"/>
 <vertex x="13.843" y="8.509"/>
 </polygon>
 <polygon width="0.2032" layer="1" isolate="0.3048">
@@ -5697,6 +5716,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
