@@ -138,26 +138,26 @@ plugins:
   - redirects:
       redirect_maps:
           'index.md': 'getting_started.md'
-  # # Add revision date
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  #     type: timeago
-  # # Add git committers at bottom of the page
-  # - git-committers:
-  #     repository: sparkfun/SparkFun_Buck_Regulator_AP3429A
-  #     branch: main
-  # # Add git authors at bottom of the page
-  # - git-authors
-  # # Enables use of Git submodules and larger code base
-  # - monorepo
-  # # For PDF rendering
-  # - with-pdf:
-  #     author: SparkFun Electronics&#174;
-  #     copyright: Copyright 2023 - SparkFun Electronics&#174;
-  #     cover_subtitle: none
-  #     cover_logo: img/sfe_logo_sm.png
-  #     exclude_pages: [ "hard_copy", "single_page", "github/file_issue", "github/contribute" ]
-  #     output_path: board_files/hookup_guide.pdf
+  # Add revision date
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  # Add git committers at bottom of the page
+  - git-committers:
+      repository: sparkfun/SparkFun_Buck_Regulator_AP3429A
+      branch: main
+  # Add git authors at bottom of the page
+  - git-authors
+  # Enables use of Git submodules and larger code base
+  - monorepo
+  # For PDF rendering
+  - with-pdf:
+      author: SparkFun Electronics&#174;
+      copyright: Copyright 2023 - SparkFun Electronics&#174;
+      cover_subtitle: none
+      cover_logo: img/sfe_logo_sm.png
+      exclude_pages: [ "hard_copy", "single_page", "github/file_issue", "github/contribute" ]
+      output_path: board_files/hookup_guide.pdf
 
 
 
