@@ -1,7 +1,3 @@
----
-icon: octicons/issue-opened-16
----
-
 # Did we make a mistake?
 
 Spot something wrong? Please let us know. <a href="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP3429A/issues" alt="Issues"><img src="https://img.shields.io/github/issues/sparkfun/SparkFun_Buck_Regulator_AP3429A.svg" /></a>

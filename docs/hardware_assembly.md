@@ -106,7 +106,7 @@ A [barrel jack connector](https://www.sparkfun.com/products/119) can be added to
 
 
 
-## :screwdriver:&nbsp;Screw Terminals
+## Screw Terminals
 A screw terminal is a great non-permanent solution, to connect the board. To use the screw terminals, simply insert the correct wires into the screw terminal opening and tighten the screw with a small flathead screwdriver for a firm connection.
 
 <figure markdown>
@@ -115,7 +115,7 @@ A screw terminal is a great non-permanent solution, to connect the board. To use
 </figure>
 
 
-## :material-car-defrost-rear:&nbsp;Heat Sink
+## Heat Sink
 !!! tip
     With larger heat sinks, we recommend a test fit and attaching it last to avoid conflicts with other parts of the board. For example, the heat sink could block the PTH pins/slots or access to the jumper pad.
 

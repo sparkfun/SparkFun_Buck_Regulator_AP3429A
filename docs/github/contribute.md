@@ -1,7 +1,3 @@
----
-icon: octicons/git-pull-request-16 #material/source-pull
----
-
 # Contribute: Make an Augmentation!
 Spot an improvement opportunity? Feel free to contribute to our open-source design and documentation. <a href="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP3429A/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/issues-pr/sparkfun/SparkFun_Buck_Regulator_AP3429A.svg" /></a>
 

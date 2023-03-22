@@ -234,15 +234,14 @@ extra_javascript:
 
 # Configures webpage navigation
 nav:
-  - 📖 Getting Started:
+  - Getting Started:
     - Introduction: getting_started.md
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
     - Load Test: load_test.md
-  - 📚 Resources:
+  - Resources:
     - Hardware Resources: resources.md
-    - Hardware Resources: resources2.md
-  - 👥 Support:
+  - Support:
     - Troubleshooting Tips: troubleshooting_tips.md
     - Sumbit Issues: github/file_issue.md
     - Contribute: github/contribute.md

@@ -7,7 +7,7 @@ For users who would like to test their buck regulators, this page demonstrates a
 !!! note
 	Users who wish to test the maximum parameters of their board should consider using a professional/benchtop DC electric load tester, instead of the [variable load kit](https://www.sparkfun.com/products/14449). 
 
-## :fontawesome-solid-list-check:&nbsp;Required Hardware
+## Required Hardware
 To test the buck regulator boards, users will need the following hardware:
 
 * DC Electric Load Tester
@@ -62,7 +62,7 @@ To test the buck regulator boards, users will need the following hardware:
 
 </div>
 
-## :material-tools:&nbsp;Hardware Setup
+## Hardware Setup
 For this test, the hardware was setup up as follows:
 
 * Power was supplied to the buck regulator through the soldered barrel jack.
@@ -70,7 +70,7 @@ For this test, the hardware was setup up as follows:
 * Power was enabled using a jumper on the headers, soldered to the `VIN` and `EN` PTH pins.
 * No heat sink was attached to the buck regulator.
 
-## :material-meter-electric:&nbsp;Test
+## Test
 To perform the test, the power supply was set to provide 4.5V at up to 4A. Meanwhile, the SparkFun variable load kit was configured to draw 1A.
 
 <figure markdown>
