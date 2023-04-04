@@ -380,6 +380,164 @@ To get started, users will need a few items. Now some users may already have a f
 
 
 
+??? note "Battery Options"
+	If users would like to power their board with a [battery](https://www.sparkfun.com/categories/54), we recommend the following options from our catalog.
+
+	<table class="pdf">
+		<tr>
+			<td>
+				<a href="https://www.sparkfun.com/products/15201">
+					<center>
+					<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/3/6/2/5/15201-Panasonic_Alkaline_Battery_-_AA-02.jpg" alt="Product image">
+					</center>
+					<h3 class="title">Panasonic Alkaline Battery - AA</h3>
+				</a>
+				PRT-15201
+			</td>
+			<td>
+				<a href="https://www.sparkfun.com/products/10891">
+					<center>
+					<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/5/9/7/5/10891-01b.jpg" alt="Product image">
+					</center>
+					<h3 class="title">Battery Holder 3xAA with Cover and Switch - Bare Wire</h3>
+				</a>
+				PRT-10891
+			</td>
+			<td>
+				<a href="https://www.sparkfun.com/products/18769">
+					<center>
+					<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/8/3/2/5/14188-01.jpg" alt="Product image">
+					</center>
+					<h3 class="title">Battery Holder 3xAA with Cover and Switch - JST Connector</h3>
+				</a>
+				PRT-18769
+			</td>
+			<td>
+				<a href="https://www.sparkfun.com/products/9747">
+					<center>
+					<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/3/7/0/9/09749-01.jpg" alt="Product image">
+					</center>
+					<h3 class="title">JST Right-Angle Connector - Through-Hole 2-Pin</h3>
+				</a>
+				PRT-09747
+			</td>
+			<td>
+				<a href="https://www.sparkfun.com/products/9914">
+					<center>
+					<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/4/0/2/0/09914-01b.jpg" alt="Product image">
+					</center>
+					<h3 class="title">JST Jumper 2 Wire Assembly</h3>
+				</a>
+				PRT-09914
+			</td>
+			<td>
+				<a href="https://www.sparkfun.com/products/13851">
+					<center>
+					<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/1/4/5/8/13857-01.jpg" alt="Product image">
+					</center>
+					<h3 class="title">Lithium Ion Battery - 400mAh</h3>
+				</a>
+				PRT-13851
+			</td>
+		</tr>
+	</table>
+
+
+	<div class="grid cards hide col-4" markdown>
+
+	-   <a href="https://www.sparkfun.com/products/15201">
+		**Panasonic Alkaline Battery - AA**<br>
+		PRT-15201
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/1/3/6/2/5/15201-Panasonic_Alkaline_Battery_-_AA-02.jpg)
+		</figure></a>
+	
+	-   <a href="https://www.sparkfun.com/products/10891">
+		**Battery Holder 3xAA with Cover and Switch - Bare Wire**<br>
+		PRT-10891
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/5/9/7/5/10891-01b.jpg)
+		</figure></a>
+
+	-   <a href="https://www.sparkfun.com/products/14188">
+		**Battery Holder 3xAA with Cover and Switch - JST Connector**<br>
+		PRT-14188
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/1/8/3/2/5/14188-01.jpg)
+		</figure></a>
+	
+	-   <a href="https://www.sparkfun.com/products/9749">
+		**JST Right-Angle Connector - Through-Hole 2-Pin**<br>
+		PRT-09749
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/3/7/0/9/09749-01.jpg)
+		</figure></a>
+	
+	-   <a href="https://www.sparkfun.com/products/9914">
+		**JST Jumper 2 Wire Assembly**<br>
+		PRT-09914
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/4/0/2/0/09914-01b.jpg)
+		</figure></a>
+
+	-   <a href="https://www.sparkfun.com/products/13857">
+		**Lithium Ion Battery - 400mAh**<br>
+		PRT-13857
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/1/1/4/5/8/13857-01.jpg)
+		</figure></a>
+	
+	-   <a href="https://www.sparkfun.com/products/13854">
+		**Lithium Ion Battery - 850mAh**<br>
+		PRT-13854
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/1/1/4/6/1/13854-01.jpg)
+		</figure></a>
+	
+	-   <a href="https://www.sparkfun.com/products/13813">
+		**Lithium Ion Battery - 1Ah**<br>
+		PRT-13813
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/1/1/4/0/1/13813-01.jpg)
+		</figure></a>
+	
+	-   <a href="https://www.sparkfun.com/products/13855">
+		**Lithium Ion Battery - 2Ah**<br>
+		PRT-13855
+
+		---
+
+		<figure markdown>
+		![Product image](https://cdn.sparkfun.com/assets/parts/1/1/4/6/2/13855-01.jpg)
+		</figure></a>
+
+	</div>
+
+
 ## :material-bookshelf:&nbsp;Suggested Reading
 
 As a more sophisticated product, we will skip over the more fundamental tutorials (i.e. [**Ohm's Law**](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law) and [**What is Electricity?**](https://learn.sparkfun.com/tutorials/what-is-electricity)). However, below are a few tutorials that may help users familiarize themselves with various aspects of the board.

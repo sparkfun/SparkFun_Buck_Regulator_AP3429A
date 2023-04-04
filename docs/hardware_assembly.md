@@ -99,6 +99,59 @@ A screw terminal is a great non-permanent solution, to connect the board. To use
 </figure>
 
 
+## :material-soldering-iron:&nbsp;Battery 2-Pin JST
+Unlike our previous buck converter breakouts, the output voltage for these AP3429A buck converters is low enough to be powered by batteries. Users can connect batteries directly to the board, utilizing the screw terminals or PTH pins. Another option, is to solder on a [2-pin JST right-angle connector](https://www.sparkfun.com/products/9749).
+
+!!! tip
+	Make sure to note the polarity of the connections to the JST connector before attaching it to the board.
+
+<figure markdown>
+[![](../img/hookup_guide/assembly-jst.jpg){ width="200" }](../img/hookup_guide/assembly-jst.jpg "Click to enlarge")
+<figcaption markdown>
+Soldering a [2-pin JST right-angle connector](https://www.sparkfun.com/products/9749) to the AP3429A Buck Regulator Breakout boards.
+</figcaption>
+</figure>
+
+
+The [2-pin JST right-angle connector](https://www.sparkfun.com/products/9749) is compatible with several of our [LiPo batteries and battery packs](https://www.sparkfun.com/categories/54). Just make sure to select an option that is appropriate for your project.
+
+!!! warning "LiPo Batteries"
+	Utilize a LiPo battery with an undervoltage protection circuit. This will ensure that the buck regulator boards don't damage the battery as its energy is depleted.
+
+<center>
+<table class="pdf">
+	<tr>
+		<td align="center">
+			<a href="../img/hookup_guide/assembly-battery_pack.jpg"><img src="../img/hookup_guide/assembly-battery_pack.jpg" width="200"></a><br>
+			<i>The AP3429A Buck Regulator Breakout board with a [3xAA battery pack](https://www.sparkfun.com/products/18769).</i>
+		</td>
+		<td align="center">
+			<a href="../img/hookup_guide/assembly-battery_lipo.jpg"><img src="../img/hookup_guide/assembly-battery_lipo.jpg" width="200"></a><br>
+			<i>The AP3429A Buck Regulator Breakout board with a [400mA LiPo battery](https://www.sparkfun.com/products/13851).</i>
+		</td>
+	<tr>
+</table>
+</center>
+
+<div class="grid cards hide" markdown>
+
+-   <figure markdown>
+	[![](../img/hookup_guide/assembly-battery_pack.jpg)](../img/hookup_guide/assembly-battery_pack.jpg "Click to enlarge")
+	<figcaption markdown>
+	The AP3429A Buck Regulator Breakout board powered by a [3xAA battery pack](https://www.sparkfun.com/products/18769).
+	</figcaption>
+	</figure>
+
+-   <figure markdown>
+	[![](../img/hookup_guide/assembly-battery_lipo.jpg)](../img/hookup_guide/assembly-battery_lipo.jpg "Click to enlarge")
+	<figcaption markdown>
+	The AP3429A Buck Regulator Breakout board powered by a [400mA LiPo battery](https://www.sparkfun.com/products/13851).
+	</figcaption>
+	</figure>
+
+</div>
+
+
 ## Heat Sink
 !!! tip
     With larger heat sinks, we recommend a test fit and attaching it last to avoid conflicts with other parts of the board. For example, the heat sink could block the PTH pins/slots or access to the jumper pad.
