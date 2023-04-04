@@ -69,12 +69,17 @@ For this test, the hardware was setup up as follows:
 * The output power from the buck regulator was connected to the variable load kit, through the screw terminal.
 * No heat sink was attached to the buck regulator.
 
-## Test
-To perform the test, the power supply was set to provide 4.5V at up to 4A. Meanwhile, the SparkFun variable load kit was configured to draw 1A.
-
 <figure markdown>
 [![](../img/hookup_guide/test_setup.jpg){ width="400" }](../img/hookup_guide/test_setup.jpg "Click to enlarge")<br>
 <figcaption markdown>Setup for a basic load test on the AP3429A Buck Regulator Breakout boards.</figcaption>
 </figure>
 
-Although it is a little hard to see in the picture, the power supply is providing 4.5V with a 928mA current draw to the buck regulator. The variable load kit is drawing 1A with the 3.3V output voltage from the buck regulator.
+## Test
+To perform the test, the power supply was set to provide 4.5V at up to 4A. Meanwhile, the SparkFun variable load kit was configured to draw 0.5A.
+
+<figure markdown>
+[![](../img/hookup_guide/load_test.jpg){ width="400" }](../img/hookup_guide/load_test.jpg "Click to enlarge")<br>
+<figcaption markdown>A load test being performed on the AP3429A Buck Regulator Breakout board.</figcaption>
+</figure>
+
+Although it is a little hard to see in the picture, the power supply is providing 4.45V with a 430mA current draw to the buck regulator. The variable load kit is drawing 0.49A with the 3.34V output voltage from the buck regulator.
