@@ -18,11 +18,4 @@ icon: sfe-logo
 !!! info "Default Configuration"
     On our boards, the `EN` pin is pulled-up to enable the power output from the board by default.
 
-On the Buck Regulator boards, users can short/jumper the [`VIN`](../hardware_overview/#power "Input Voltage") and [`EN`](../hardware_overview/#power-control "Enable Pin") pins. This will bypass the undervoltage lockout setting and allow users to provide a lower input voltage. However, it should be noted that because this is a step-down converter and the input voltage should remain higher than the regulated output voltage.
-
-<figure markdown>
-[![](../img/hookup_guide/assembly-bypass-400.gif)](../img/hookup_guide/assembly-bypass.gif "Click to enlarge")
-<figcaption markdown>
-Jumpering the `EN` and `VIN` pins on the Buck Regulator to bypass the [UVLO]("undervoltage lockout").
-</figcaption>
-</figure>
+On the Buck Regulator boards, users can short/[jumper](https://www.sparkfun.com/products/9044) the [`VIN`](../hardware_overview/#power "Input Voltage") and [`EN`](../hardware_overview/#power-control "Enable Pin") pins. This will bypass the undervoltage lockout setting and allow users to provide a lower input voltage. However, it should be noted that because this is a step-down converter and the input voltage should remain higher than the regulated output voltage.

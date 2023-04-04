@@ -67,7 +67,6 @@ For this test, the hardware was setup up as follows:
 
 * Power was supplied to the buck regulator through the soldered barrel jack.
 * The output power from the buck regulator was connected to the variable load kit, through the screw terminal.
-* Power was enabled using a jumper on the headers, soldered to the `VIN` and `EN` PTH pins.
 * No heat sink was attached to the buck regulator.
 
 ## Test

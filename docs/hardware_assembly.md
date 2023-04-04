@@ -1,5 +1,5 @@
 ---
-icon: material/tools #material/soldering-iron #fontawesome/solid/gears #material/cogs
+icon: material/tools
 ---
 
 ## :material-soldering-iron:&nbsp;Headers
@@ -13,26 +13,15 @@ icon: material/tools #material/soldering-iron #fontawesome/solid/gears #material
 
 The pins for the SparkFun AP3429A Buck Regulator Breakout boards are broken out to 0.1"-spaced pins on the outer edges of the board. When selecting headers, be sure you are aware of the functionality and board orientation required.
 
-<div class="grid cards" markdown>
+<figure markdown>
+[![](../img/hookup_guide/assembly-header.jpg){ width="200" }](../img/hookup_guide/assembly-header.jpg "Click to enlarge")
+<figcaption markdown>
+Soldering headers to the AP3429A Buck Regulator Breakout boards.
+</figcaption>
+</figure>
 
--   <figure markdown>
-	[![](../img/hookup_guide/assembly-header.jpg)](../img/hookup_guide/assembly-header.jpg "Click to enlarge")
-	<figcaption markdown>
-	Soldering headers to the AP3429A Buck Regulator Breakout boards.
-	</figcaption>
-	</figure>
-
-	??? tip "Jumper the Enable Pin"
-		On the AP3429A Buck Regulator Breakout board, users can short the [`VIN`](../hardware_overview/#power "Input Voltage") and [`EN`](../hardware_overview/#power-control "Enable Pin") pins. This will allow users to bypass the undervoltage threshold and force the power output to be enabled.
-
-		<figure markdown>
-		[![](../img/hookup_guide/assembly-bypass-400.gif)](../img/hookup_guide/assembly-bypass.gif "Click to enlarge")
-		<figcaption markdown>
-		Adding a jumper to the `EN` and `VIN` pins on the AP3429A Buck Regulator Breakout Board.
-		</figcaption>
-		</figure>
-
-</div>
+??? tip "Jumper the Enable Pin"
+	On the AP3429A Buck Regulator Breakout board, users can short the [`VIN`](../hardware_overview/#power "Input Voltage") and [`EN`](../hardware_overview/#power-control "Enable Pin") pins. This will allow users to bypass the undervoltage threshold and force the power output to be enabled.
 
 
 ## :material-soldering-iron:&nbsp;Hookup Wire
@@ -48,16 +37,12 @@ Users can also solder their wire connections directly to the pins of the AP3429A
 !!! danger
 	With higher current applications, users should ensure the wires can handle the current load. *(i.e. A 32AWG wire probably won't be able to handle 2A)*
 
-<div class="grid cards" markdown>
-
--   <figure markdown>
-	[![](../img/hookup_guide/assembly-wire.jpg)](../img/hookup_guide/assembly-wire.jpg "Click to enlarge")
-	<figcaption markdown>
-	Soldering wires to the AP3429A Buck Regulator Breakout boards.
-	</figcaption>
-	</figure>
-
-</div>
+<figure markdown>
+[![](../img/hookup_guide/assembly-wire.jpg){ width="200" }](../img/hookup_guide/assembly-wire.jpg "Click to enlarge")
+<figcaption markdown>
+Soldering wires to the AP3429A Buck Regulator Breakout boards.
+</figcaption>
+</figure>
 
 
 ## :material-soldering-iron:&nbsp;Barrel Jack PTH
@@ -103,7 +88,6 @@ A [barrel jack connector](https://www.sparkfun.com/products/119) can be added to
 	</figure>
 
 </div>
-
 
 
 ## Screw Terminals

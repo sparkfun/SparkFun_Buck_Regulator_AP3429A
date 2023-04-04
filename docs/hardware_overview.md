@@ -13,6 +13,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 </figcaption>
 </figure>
 
+
 ??? tip "Need more measurements?"
 	For more information about the board's dimensions, users can download the [eagle files](../board_files/eagle_files.zip) for the board. These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
 
@@ -38,17 +39,12 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 
 Users are provided with [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") to connect their external power supply, the output voltage from the board, and the [`EN`](#power-control "Enable") power control pin for the buck regulator. The AP3429A buck regulator has an input voltage range is **2.7V** to **5.5V**. Each board has a different regulated output voltage (**1.8V** or **3.3V**) and input voltage range. *(These are step-down DC/DC converters and cannot step-up or boost the voltage output.)*
 
-
-<div class="grid cards" markdown>
-
--   <figure markdown>
-	[![](../img/hookup_guide/power_connections.jpg)](../img/hookup_guide/power_connections.jpg "Click to enlarge")
-	<figcaption markdown>
-	The power connections on the AP3429A Buck Regulator Breakout boards.
-	</figcaption>
-	</figure>
-
-</div>
+<figure markdown>
+[![](../img/hookup_guide/power_connections.jpg){ width="200"}](../img/hookup_guide/power_connections.jpg "Click to enlarge")
+<figcaption markdown>
+The power connections on the AP3429A Buck Regulator Breakout boards.
+</figcaption>
+</figure>
 
 
 Below, is a general summary of the circuitry on the board:
@@ -124,17 +120,12 @@ There are several options available for users to connect power to and from their
 
 Five [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pins are provided for an external power supply, the output voltage from the board, and the [`EN`](#power-control "enable") power control pin. The holes are spaced 0.1", to be compatible with [headers](https://www.sparkfun.com/categories/381 "Click here for a full selection of our available headers") and [breadboards](https://www.sparkfun.com/categories/302 "Click here for a full selection of our available breadboards").
 
-
-<div class="grid cards" markdown>
-
--   <figure markdown>
-	[![](../img/hookup_guide/power_pins.jpg)](../img/hookup_guide/power_pins.jpg "Click to enlarge")
-	<figcaption markdown>
-	The PTH power pins on the AP3429A Buck Regulator Breakout boards.
-	</figcaption>
-	</figure>
-
-</div>
+<figure markdown>
+[![](../img/hookup_guide/power_pins.jpg){ width="200"}](../img/hookup_guide/power_pins.jpg "Click to enlarge")
+<figcaption markdown>
+The PTH power pins on the AP3429A Buck Regulator Breakout boards.
+</figcaption>
+</figure>
 
 
 #### Screw Terminals
@@ -157,12 +148,6 @@ PTH *(slots)* are provided for users to add a [barrel jack connector](https://ww
 
 !!! info "Barrel Jack Size"
 	Our recommended [barrel jack connector](https://www.sparkfun.com/products/119) is a 5.5mm barrel jack.
-
-
-<figure markdown>
-[![](../img/hookup_guide/barrel_jack.jpg){ width="200" }](../img/hookup_guide/barrel_jack.jpg "Click to enlarge")
-
-</figure>
 
 
 <center>
@@ -220,19 +205,16 @@ There is an enable pin (`EN`) to control the output voltage *(i.e. on/off)*, wit
 * Users should pull the `EN` pin high *(above 1.5V)* to enable the switching power output and pull the pin low *(below 0.4V)* to disable it.
 	* Users can connect the `EN` pin to `VIN` to override the [UVLO]("Undervoltage Lockout") threshold.
 
-!!! tip "Default Configuration"
+!!! info "Default Configuration"
 	On our boards, the `EN` pin is pulled `HIGH` and the power output from the board is enabled by default.
 
-<div class="grid cards" markdown>
 
--   <figure markdown>
-	[![](../img/hookup_guide/enable_pin.jpg)](../img/hookup_guide/enable_pin.jpg "Click to enlarge")
-	<figcaption markdown>
-	Enable pin on the AP3429A Buck Regulator Breakout boards.
-	</figcaption>
-	</figure>
-
-</div>
+<figure markdown>
+[![](../img/hookup_guide/enable_pin.jpg){ width="200"}](../img/hookup_guide/enable_pin.jpg "Click to enlarge")
+<figcaption markdown>
+Enable pin on the AP3429A Buck Regulator Breakout boards.
+</figcaption>
+</figure>
 
 
 ## :fontawesome-solid-microchip:&nbsp;AP3429A
@@ -295,7 +277,7 @@ Features:
 	For more details, please refer to the [AP3429A datasheet](../component_documentation/AP3429A.pdf) and [application note](../component_documentation/AN_AP3428.pdf).
 
 
-??? tip "Power Efficiency"
+??? info "Power Efficiency"
 	Users should expect a power efficiency close to the chart presented in the [datasheet](../component_documentation/AP3429A.pdf) *(i.e. ~80% with smaller loads and up to +90% with larger loads)*. It should be noted that the efficiency varies with the load current and cooling.
 
 	<figure markdown>
@@ -327,7 +309,7 @@ Features:
 
 The output voltage from the AP3429A, is determined by the voltage divider on the feedback loop, as discussed in the [application note](../component_documentation/AN_AP3428.pdf).
 
-??? tip "Application Note"
+??? note "Application Note"
 	While the [application note](../component_documentation/AN_AP3428.pdf) only lists the AP3428 buck converter, Diodes Incorporated has assured us that it is still applicable to the AP3429A.
 
 

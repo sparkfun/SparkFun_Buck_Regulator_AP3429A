@@ -169,7 +169,7 @@ To get started, users will need a few items. Now some users may already have a f
 </div>
 
 
-<div class="grid cards hide col-3" markdown>
+<div class="grid cards hide col-4" markdown>
 
 -   <a href="https://www.sparkfun.com/products/21337">
 	**3.3V Buck Regulator Breakout - (AP3429A)**<br>
@@ -522,7 +522,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	![Buck Regulator Hookup Guide](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/8/9/0/Thumbnail.png)
 	</figure></a>
 
--   <a href="https://learn.sparkfun.com/tutorials/664">
+-   <a href="https://learn.sparkfun.com/tutorials/5">
 	**How to Solder: Through-Hole Soldering**
 
 	---
