@@ -61,11 +61,11 @@ A [barrel jack connector](https://www.sparkfun.com/products/119) can be added to
 	<tr>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-barrel_jack_top.jpg"><img src="../img/hookup_guide/assembly-barrel_jack_top.jpg" width="200"></a><br>
-			<i>Soldering a [barrel jack connector](https://www.sparkfun.com/products/119) onto the top of the AP3429A Buck Regulator Breakout board.</i>
+			<i>Soldering a barrel jack connector onto the top of the AP3429A Buck Regulator Breakout board.</i>
 		</td>
 		<td align="center">
 			<a href="../img/hookup_guide/assembly-barrel_jack_bottom.jpg"><img src="../img/hookup_guide/assembly-barrel_jack_bottom.jpg" width="200"></a><br>
-			<i>Soldering a [barrel jack connector](https://www.sparkfun.com/products/119) onto the bottom of the AP3429A Buck Regulator Breakout board.</i>
+			<i>Soldering a barrel jack connector onto the bottom of the AP3429A Buck Regulator Breakout board.</i>
 		</td>
 	<tr>
 </table>
@@ -90,7 +90,7 @@ A [barrel jack connector](https://www.sparkfun.com/products/119) can be added to
 </div>
 
 
-## Screw Terminals
+## :material-screwdriver:&nbsp;Screw Terminals
 A screw terminal is a great non-permanent solution, to connect the board. To use the screw terminals, simply insert the correct wires into the screw terminal opening and tighten the screw with a small flathead screwdriver for a firm connection.
 
 <figure markdown>
@@ -99,11 +99,11 @@ A screw terminal is a great non-permanent solution, to connect the board. To use
 </figure>
 
 
-## :material-soldering-iron:&nbsp;Battery 2-Pin JST
-Unlike our previous buck converter breakouts, the output voltage for these AP3429A buck converters is low enough to be powered by batteries. Users can connect batteries directly to the board, utilizing the screw terminals or PTH pins. Another option, is to solder on a [2-pin JST right-angle connector](https://www.sparkfun.com/products/9749).
+## Battery Power
+Unlike our previous buck converter breakouts, the output voltage for these AP3429A buck converters is low enough to be supplied by batteries. Users can connect batteries directly to the board, utilizing the screw terminals or PTH pins.
 
-!!! tip
-	Make sure to note the polarity of the connections to the JST connector before attaching it to the board.
+### :material-soldering-iron:&nbsp;2-Pin JST Connector
+Another option is to solder on a [2-pin JST right-angle connector](https://www.sparkfun.com/products/9749). Make sure to note the polarity of the connections to the JST connector before attaching it to the board.
 
 <figure markdown>
 [![](../img/hookup_guide/assembly-jst.jpg){ width="200" }](../img/hookup_guide/assembly-jst.jpg "Click to enlarge")
@@ -113,25 +113,30 @@ Soldering a [2-pin JST right-angle connector](https://www.sparkfun.com/products/
 </figure>
 
 
-The [2-pin JST right-angle connector](https://www.sparkfun.com/products/9749) is compatible with several of our [LiPo batteries and battery packs](https://www.sparkfun.com/categories/54). Just make sure to select an option that is appropriate for your project.
+This connector is compatible with several of our [LiPo batteries and battery packs](https://www.sparkfun.com/categories/54). Just make sure to select an option that is appropriate for your project.
+
+
+<table class="pdf" markdown="block">
+<tbody markdown>
+<tr markdown="1">
+<td align="center" markdown>
+<a href="../img/hookup_guide/assembly-battery_pack.jpg"><img src="../img/hookup_guide/assembly-battery_pack.jpg" width="200"></a><br>
+<i>The AP3429A Buck Regulator Breakout board with a [3xAA battery pack](https://www.sparkfun.com/products/18769).</i>
+</td>
+<td markdown="block">
+<center>
+<a href="../img/hookup_guide/assembly-battery_lipo.jpg"><img src="../img/hookup_guide/assembly-battery_lipo.jpg" width="200"></a><br>
+<i>The AP3429A Buck Regulator Breakout board with a [400mA LiPo battery](https://www.sparkfun.com/products/13851).</i>
+</center>
 
 !!! warning "LiPo Batteries"
 	Utilize a LiPo battery with an undervoltage protection circuit. This will ensure that the buck regulator boards don't damage the battery as its energy is depleted.
 
-<center>
-<table class="pdf">
-	<tr>
-		<td align="center">
-			<a href="../img/hookup_guide/assembly-battery_pack.jpg"><img src="../img/hookup_guide/assembly-battery_pack.jpg" width="200"></a><br>
-			<i>The AP3429A Buck Regulator Breakout board with a [3xAA battery pack](https://www.sparkfun.com/products/18769).</i>
-		</td>
-		<td align="center">
-			<a href="../img/hookup_guide/assembly-battery_lipo.jpg"><img src="../img/hookup_guide/assembly-battery_lipo.jpg" width="200"></a><br>
-			<i>The AP3429A Buck Regulator Breakout board with a [400mA LiPo battery](https://www.sparkfun.com/products/13851).</i>
-		</td>
-	<tr>
+</td>
+<tr>
+</tbody>
 </table>
-</center>
+
 
 <div class="grid cards hide" markdown>
 
@@ -149,7 +154,19 @@ The [2-pin JST right-angle connector](https://www.sparkfun.com/products/9749) is
 	</figcaption>
 	</figure>
 
+	!!! warning "LiPo Batteries"
+		Utilize a LiPo battery with an undervoltage protection circuit. This will ensure that the buck regulator boards don't damage the battery as its energy is depleted.
+
 </div>
+
+
+!!! tip "Disconnecting Hardware"
+    <p><b><span style="color:red">DO <u>NOT</u></span></b> remove batteries by pulling on their wires. Instead, it is recommended that pair of dikes (i.e. diagonal wire cutters), pliers, or tweezers be used to pull on the JST connector housing, to avoid damaging the battery wiring.</p>
+    <p><center>
+        <a href="https://docs.sparkfun.com/SparkFun_Thing_Plus_ESP32_WROOM_C/img/hookup_guide/assembly_batt_removal.jpg"><img alt="Disconnect battery w/ dikes" title="Click to enlarge" src="https://docs.sparkfun.com/SparkFun_Thing_Plus_ESP32_WROOM_C/img/hookup_guide/assembly_batt_removal.jpg" width="200"></a>
+        <br>
+        <i>Using a pair of dikes to disconnect a battery.</i>
+    </center></p>
 
 
 ## Heat Sink

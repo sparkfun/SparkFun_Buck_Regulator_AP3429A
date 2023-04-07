@@ -67,7 +67,7 @@ Below, is a general summary of the circuitry on the board:
 	***Disclaimer:** We don't recommend that users expect to be able to load the boards with a maximum 2.2A, as we are not sure how this may affect the lifespan of the board. We just want users to know that they may have an extra margin of safety on their peak load.* 
 
 ??? tip "Quiescent Current Draw"
-    Users should expect a maximum quiescent current draw of ~365&micro;A from the board. For a lower quiescent current, users can modify the board by removing the pull-up resistor on the [`EN`](#power-control "enable") pin.
+    Users should expect a nominal quiescent current draw of ~90&micro;A from the board. For a lower quiescent current, users can disable the power output and/or modify the board by removing the pull-up resistor on the [`EN`](#power-control "enable") pin.
 
 	<div class="grid cards" markdown>
 
@@ -76,22 +76,91 @@ Below, is a general summary of the circuitry on the board:
 		---
 
 		<center>
-		
-		| Input Voltage (V) | I~q~ (&micro;A) | I~q~ - Power Enabled (&micro;A) |
-		| :-: | :-: | :-: |
-		| 6 | 65 | 196 |
-		| 12 | 129 | 209 |
-		| 24 | 260 | 290.5 |
-		| 32 | 330 | 355 |
-
+		<table markdown>
+		<tr markdown>
+		<td rowspan="2" align="center" style="vertical-align:middle;" markdown>
+		Input<br>Voltage (V)
+		</td>
+		<td colspan="2" align="center" style="vertical-align:middle;" markdown>
+		I~q~ (&micro;A)<br>*Power Disabled*
+		</td>
+		<td colspan="2" align="center" markdown>
+		I~q~ (&micro;A)<br>*Power Enabled*
+		</td>
+		</tr>
+		<tr markdown>
+		<td align="center" markdown>**1.8V**</td>
+		<td align="center" markdown>**3.3V**</td>
+		<td align="center" markdown>**1.8V**</td>
+		<td align="center" markdown>**3.3V**</td>
+		</tr>
+		<tr markdown>
+		<td align="center" markdown>5.0</td>
+		<td markdown>49.34</td>
+		<td markdown>49.58</td>
+		<td markdown>85.15</td>
+		<td markdown>97.48</td>
+		</tr>
+		<tr markdown>
+		<td align="center" markdown>4.5</td>
+		<td markdown>44.60</td>
+		<td markdown>44.81</td>
+		<td markdown>83.32</td>
+		<td markdown>96.00</td>
+		</tr>
+		<tr markdown>
+		<td align="center" markdown>4.2</td>
+		<td markdown>41.51</td>
+		<td markdown>41.71</td>
+		<td markdown>82.64</td>
+		<td markdown>95.27</td>
+		</tr>
+		<tr markdown>
+		<td align="center" markdown>3.9</td>
+		<td align="center" markdown>---</td>
+		<td markdown>38.70</td>
+		<td align="center" markdown>---</td>
+		<td markdown>95.03</td>
+		</tr>
+		<tr markdown>
+		<td align="center" markdown>3.7</td>
+		<td markdown>36.60</td>
+		<td markdown>36.76</td>
+		<td markdown>81.88</td>
+		<td markdown>94.87</td>
+		</tr>
+		<tr markdown>
+		<td align="center" markdown>3.3</td>
+		<td markdown>32.70</td>
+		<td markdown>32.84</td>
+		<td markdown>81.23</td>
+		<td markdown>338.12</td>
+		</tr>
+		<tr markdown>
+		<td align="center" markdown>3.0</td>
+		<td markdown>29.82</td>
+		<td align="center" markdown>N/A</td>
+		<td markdown>80.59</td>
+		<td align="center" markdown>N/A</td>
+		</tr>
+		<tr markdown>
+		<td align="center" markdown>2.7</td>
+		<td markdown>27.06</td>
+		<td align="center" markdown>N/A</td>
+		<td markdown>79.58</td>
+		<td align="center" markdown>N/A</td>
+		</tr>
+		</table>
 		</center>
+
+		*The values in the table above, were measured with a [Power Profiler Kit II](https://www.nordicsemi.com/Products/Development-hardware/Power-Profiler-Kit-2) and averaged over a 10s period.*
 
 	-	Pull-Up Resistor Modification
 
 		---
 
 		<figure markdown>
-		[![](../img/hookup_guide/uvlo_mod.jpg)](../img/hookup_guide/uvlo_mod.jpg "Click to enlarge")
+		[![](../img/hookup_guide/enable_pull-up.jpg)](../img/hookup_guide/enable_pull-up.jpg "Click to enlarge")
 		<figcaption markdown>
 		Pull-up resistor on the AP3429A Buck Regulator Breakout boards.
 		</figcaption>
@@ -378,6 +447,42 @@ A 0.5" x 0.6" platted copper pad is provided on the back of the boards, where us
 Heat sink pad on the back of the AP3429A Buck Regulator Breakout boards.
 </figcaption>
 </figure>
+
+
+??? tip "Thermal Characteristics"
+	Below are charts depicting the thermal performance of the AP3429A Buck Regulator Breakout boards that users should expect. These values were measured at 200mA steps for input voltages between 4 - 5.5V.
+
+	=== "1.8V w/o Heatsink"
+		<figure markdown>
+		[![](../img/hookup_guide/thermal_charateristics-1V8.png){ width=400 }](../img/hookup_guide/thermal_charateristics-1V8.png "Click to enlarge")
+		<figcaption markdown>
+		Thermal characteristics of the 1.8V Buck Regulator Breakout board without a heatsink.
+		</figcaption>
+		</figure>
+	
+	=== "1.8V w/ Heatsink"
+		<figure markdown>
+		[![](../img/hookup_guide/thermal_charateristics-1V8_heatsink.png){ width=400 }](../img/hookup_guide/thermal_charateristics-1V8_heatsink.png "Click to enlarge")
+		<figcaption markdown>
+		Thermal characteristics of the 1.8V Buck Regulator Breakout board with a heatsink.
+		</figcaption>
+		</figure>
+
+	=== "3.3V w/o Heatsink"
+		<figure markdown>
+		[![](../img/hookup_guide/thermal_charateristics-3V3.png){ width=400 }](../img/hookup_guide/thermal_charateristics-3V3.png "Click to enlarge")
+		<figcaption markdown>
+		Thermal characteristics of the 3.3V Buck Regulator Breakout board without a heatsink.
+		</figcaption>
+		</figure>
+
+	=== "3.3V w/ Heatsink"
+		<figure markdown>
+		[![](../img/hookup_guide/thermal_charateristics-3V3_heatsink.png){ width=400 }](../img/hookup_guide/thermal_charateristics-3V3_heatsink.png "Click to enlarge")
+		<figcaption markdown>
+		Thermal characteristics of the 3.3V Buck Regulator Breakout board with a heatsink.
+		</figcaption>
+		</figure>
 
 
 ## Jumper
