@@ -126,7 +126,7 @@ theme:
       # Permalink icon
       link: octicons/link-16
 
-  # Adds overrides for stylesheets, html, etc.
+  # Adds overrides for icons, html, etc.
   custom_dir: overrides
 
 
@@ -203,7 +203,7 @@ markdown_extensions:
 
 extra:
   # Configures the hyperlink for the logo in the header
-  homepage: https://www.sparkfun.com/products/21337
+  homepage: https://www.sparkfun.com
 
   # Configures social icons in the footer
   social:
