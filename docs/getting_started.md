@@ -20,7 +20,7 @@ These boards feature the AP3429A from [Diodes Inc.](https://www.diodes.com/), a 
 	---
 
 	<figure markdown>
-	![Product image](https://cdn.sparkfun.com/r/500-500/assets/parts/2/1/1/4/6/21337-_COM-_Buck_Regulator_3.3v-_01.jpg)
+	![Product image](https://cdn.sparkfun.com/r/500-500/assets/parts/2/1/1/4/6/21337-_COM_SparkFun_Buck_Regulator_Breakout-_1.jpg)
 	</figure>
 	</a>
 
@@ -39,7 +39,7 @@ These boards feature the AP3429A from [Diodes Inc.](https://www.diodes.com/), a 
 	---
 
 	<figure markdown>
-	![Product image](https://cdn.sparkfun.com/r/500-500/assets/parts/2/1/1/4/7/21338-_COM-_Buck_Regulator_1.8v-_01.jpg)
+	![Product image](https://cdn.sparkfun.com/r/500-500/assets/parts/2/1/1/4/7/21338-_COM_SparkFun_Buck_Regulator_Breakout-1.jpg)
 	</figure></a>
 
 	This board provides a regulated **1.8V** output with an input voltage range of **2.7V - 5.5V**.
@@ -74,7 +74,7 @@ To get started, users will need a few items. Now some users may already have a f
 		<td>
 			<a href="https://www.sparkfun.com/products/21338">
 				<center>
-				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/1/1/4/7/21338-_COM-_Buck_Regulator_1.8v-_01.jpg" alt="Product image">
+				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/1/1/4/7/21338-_COM_SparkFun_Buck_Regulator_Breakout-1.jpg" alt="Product image">
 				</center>
 				<h3 class="title">SparkFun Buck Regulator Breakout - 1.8V (AP3429A)</h3>
 			</a>
@@ -83,7 +83,7 @@ To get started, users will need a few items. Now some users may already have a f
 		<td>
 			<a href="https://www.sparkfun.com/products/21337">
 				<center>
-				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/1/1/4/6/21337-_COM-_Buck_Regulator_3.3v-_01.jpg" alt="Product image">
+				<img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/1/1/4/6/21337-_COM_SparkFun_Buck_Regulator_Breakout-_1.jpg" alt="Product image">
 				</center>
 				<h3 class="title">SparkFun Buck Regulator Breakout - 3.3V (AP3429A)</h3>
 			</a>
@@ -178,7 +178,7 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![Product image](https://cdn.sparkfun.com/assets/parts/2/1/1/4/6/21337-_COM-_Buck_Regulator_3.3v-_01.jpg)
+	![Product image](https://cdn.sparkfun.com/assets/parts/2/1/1/4/6/21337-_COM_SparkFun_Buck_Regulator_Breakout-_1.jpg)
 	</figure></a>
 
 -   <a href="https://www.sparkfun.com/products/21338">
@@ -188,7 +188,7 @@ To get started, users will need a few items. Now some users may already have a f
 	---
 
 	<figure markdown>
-	![Product image](https://cdn.sparkfun.com/assets/parts/2/1/1/4/7/21338-_COM-_Buck_Regulator_1.8v-_01.jpg)
+	![Product image](https://cdn.sparkfun.com/assets/parts/2/1/1/4/7/21338-_COM_SparkFun_Buck_Regulator_Breakout-1.jpg)
 	</figure></a>
 
 -   <a href="https://www.sparkfun.com/products/18704">
