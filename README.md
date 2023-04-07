@@ -14,7 +14,7 @@ SparkFun AP3429A Buck Regulator Breakouts
 
 | [3.3V Buck Regulator (COM-21337)](https://www.sparkfun.com/products/21337) | [1.8V Buck Regulator (COM-21338)](https://www.sparkfun.com/products/21338) |
 | --- | --- |
-| [![SparkFun Buck Regulator Breakout - 3.3V (AP3429A)](https://cdn.sparkfun.com/r/300-300/assets/parts/2/1/1/4/6/21337-_COM-_Buck_Regulator_3.3v-_01.jpg)](https://www.sparkfun.com/products/21337) | [![SparkFun Buck Regulator Breakout - 1.8V (AP3429A)](https://cdn.sparkfun.com/r/300-300/assets/parts/2/1/1/4/7/21338-_COM-_Buck_Regulator_1.8v-_01.jpg)](https://www.sparkfun.com/products/21338) |
+| [![SparkFun Buck Regulator Breakout - 3.3V (AP3429A)](https://cdn.sparkfun.com/r/300-300/assets/parts/2/1/1/4/6/21337-_COM_SparkFun_Buck_Regulator_Breakout-_1.jpg)](https://www.sparkfun.com/products/21337) | [![SparkFun Buck Regulator Breakout - 1.8V (AP3429A)](https://cdn.sparkfun.com/r/300-300/assets/parts/2/1/1/4/7/21338-_COM_SparkFun_Buck_Regulator_Breakout-1.jpg)](https://www.sparkfun.com/products/21338) |
 
 These buck regulator boards feature the AP3429A from [Diodes Inc.](https://www.diodes.com/), a 2A DC-DC buck converter with a wide input voltage range of 2.7V to 5.5V. The boards are configured to provide a regulated **3.3V** or **1.8V** output, which is controlled by an `EN` *(enable)* pin and indicated by a red power LED. A pre-assembled screw terminal and 0.1" spaced PTH pins are available to connect the input and output power of the boards. Additionally, there is the option to solder on a [barrel jack](https://www.sparkfun.com/products/119) for an [external power supply](https://www.sparkfun.com/categories/308). To dissipate excess heat, a copper pad is provided to attach a heat sink to the bottom of the board.
 
