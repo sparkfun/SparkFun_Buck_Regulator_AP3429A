@@ -14,6 +14,7 @@
     * :material-folder-cog: Design Files:
         * :fontawesome-solid-file-pdf: [Schematic](./board_files/schematic.pdf)
         * :material-folder-zip: [Eagle Files](./board_files/eagle_files.zip)
+    * :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_Buck_Regulator_AP3429A)
 
 - **3.3V Buck Regulator Breakout - (AP3429A)**
 
@@ -35,9 +36,6 @@
 
 </section>
 
-* :material-youtube: [SFE Product Showcase](https://youtu.be/g2MgO2fjqsw)
-* :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_Buck_Regulator_AP3429A)
-
 
 ### Additional Resources
 
@@ -48,7 +46,7 @@
 ## 🏭&nbsp;Manufacturer's Resources
 Diodes Incorporated also provides great resources for the AP3429A Buck Regulator:
 
-* [AP3429A Product Page](ps://www.diodes.com/part/view/AP3429)
+* [AP3429A Product Page](https://www.diodes.com/part/view/AP3429)
     * :material-file-document-multiple: [Technical Documentation](ps://www.diodes.com/part/view/AP3429/#tab-details)
 * :material-head-question: [Technical Support Page](https://www.diodes.com/about/contact-us/technical-support/)
 
