@@ -549,55 +549,55 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	<tr>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/72">Electric Power<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/7/2/PowerThumb.jpg"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/7/2/PowerThumb.jpg" alt="Tutorial Thumbnail"></a>
 		</td>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/18">Connector Basics<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/c/d/6/9/4/511421f8ce395f687e000007.jpg"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/c/d/6/9/4/511421f8ce395f687e000007.jpg" alt="Tutorial Thumbnail"></a>
 		</td>
         <td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/41">Working with Wire<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/0/5/0/0/f/5138de3cce395fbb1b000002.JPG"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/0/5/0/0/f/5138de3cce395fbb1b000002.JPG" alt="Tutorial Thumbnail"></a>
 		</td>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/36">How to Power a Project<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/3/6/Bench_Power_Supply.jpg"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/3/6/Bench_Power_Supply.jpg" alt="Tutorial Thumbnail"></a>
 		</td>
     </tr>
 	<tr>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/26">What is a Circuit?<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/2/6/Concept_Tutorial_Images-03.jpg"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/2/6/Concept_Tutorial_Images-03.jpg" alt="Tutorial Thumbnail"></a>
 		</td>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/115">Alternating Current (AC) vs. Direct Current (DC)<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/1/5/acDC.jpg"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/1/5/acDC.jpg" alt="Tutorial Thumbnail"></a>
 		</td>
         <td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/75">Polarity<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/5/4/1/e/0/5193d2adce395f3d7a000001.jpg"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/5/4/1/e/0/5193d2adce395f3d7a000001.jpg" alt="Tutorial Thumbnail"></a>
 		</td>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/62">Logic Levels<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/2/Input_Output_Logic_Level_Tolerances_tutorial_tile.png"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/2/Input_Output_Logic_Level_Tolerances_tutorial_tile.png" alt="Tutorial Thumbnail"></a>
 		</td>
 	</tr>
     <tr>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/1890">Buck Regulator Hookup Guide<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/8/9/0/Thumbnail.png"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/8/9/0/Thumbnail.png" alt="Tutorial Thumbnail"></a>
 		</td>
 		<td align="center">
 			<a href="https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP63357DV-7">AP63357DV - 5V Buck Regulator Hookup Guide<br>
-			<img src="https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP63357DV-7/img/hookup_guide/test_setup.jpg"></a>
+			<img src="https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP63357DV-7/img/hookup_guide/test_setup.jpg" alt="Tutorial Thumbnail"></a>
 		</td>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/5">How to Solder: Through-Hole Soldering<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg" alt="Tutorial's thumbnail"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg" alt="Tutorial Thumbnail"></a>
 		</td>
 		<td align="center">
 			<a href="https://learn.sparkfun.com/tutorials/664">How to Work with Jumper Pads and PCB Traces<br>
-			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg" alt="Tutorial's thumbnail"></a>
+			<img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg" alt="Tutorial Thumbnail"></a>
 		</td>
 	</tr>
 </table>
@@ -611,7 +611,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 	
 	<figure markdown>
-	![Electric Power](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/7/2/PowerThumb.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/7/2/PowerThumb.jpg)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/18">
@@ -620,7 +620,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 	
 	<figure markdown>
-	![Connector Basics](https://cdn.sparkfun.com/c/264-148/assets/c/d/6/9/4/511421f8ce395f687e000007.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/c/d/6/9/4/511421f8ce395f687e000007.jpg)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/41">
@@ -629,7 +629,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 	
 	<figure markdown>
-	![Working with Wire](https://cdn.sparkfun.com/c/264-148/assets/0/5/0/0/f/5138de3cce395fbb1b000002.JPG)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/0/5/0/0/f/5138de3cce395fbb1b000002.JPG)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/36">
@@ -638,7 +638,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 	
 	<figure markdown>
-	![IHow to Power a Project](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/3/6/Bench_Power_Supply.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/3/6/Bench_Power_Supply.jpg)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/26">
@@ -647,7 +647,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 	
 	<figure markdown>
-	![What is a Circuit?](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/2/6/Concept_Tutorial_Images-03.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/2/6/Concept_Tutorial_Images-03.jpg)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/115">
@@ -656,7 +656,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 	
 	<figure markdown>
-	![Alternating Current (AC) vs. Direct Current (DC)](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/1/5/acDC.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/1/5/acDC.jpg)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/75">
@@ -665,7 +665,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 	
 	<figure markdown>
-	![Polarity](https://cdn.sparkfun.com/c/264-148/assets/5/4/1/e/0/5193d2adce395f3d7a000001.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/5/4/1/e/0/5193d2adce395f3d7a000001.jpg)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/62">
@@ -674,7 +674,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 	
 	<figure markdown>
-	![Logic Levels](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/2/Input_Output_Logic_Level_Tolerances_tutorial_tile.png)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/2/Input_Output_Logic_Level_Tolerances_tutorial_tile.png)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/1890">
@@ -683,7 +683,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 
 	<figure markdown>
-	![Buck Regulator Hookup Guide](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/8/9/0/Thumbnail.png)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/8/9/0/Thumbnail.png)
 	</figure></a>
 
 -   <a href="https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP63357DV-7">
@@ -692,7 +692,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 
 	<figure markdown>
-	![AP63357 - 5V Buck Regulator Hookup Guide](https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP63357DV-7/img/hookup_guide/test_setup.jpg)
+	![Tutorial Thumbnail](https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP63357DV-7/img/hookup_guide/test_setup.jpg)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/5">
@@ -701,7 +701,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 	
 	<figure markdown>
-	![How to Solder: Through-Hole Soldering](https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/e/3/9/9/4/51d9fbe1ce395f7a2a000000.jpg)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/664">
@@ -710,7 +710,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 	
 	<figure markdown>
-	![How to Work with Jumper Pads and PCB Traces](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg)
 	</figure></a>
 
 </div>
