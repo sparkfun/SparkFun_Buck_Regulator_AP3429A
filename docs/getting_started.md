@@ -52,7 +52,7 @@ These boards feature the AP3429A from [Diodes Inc.](https://www.diodes.com/), a 
 
 
 ## :fontawesome-solid-list-check:&nbsp;Required Materials
-To get started, users will need a few items. Now some users may already have a few of these items, feel free to modify your cart accordingly. For users just getting started with electronics, we have linked a few tutorials to establish a foundation of knowledge to follow along with this hookup guide.
+To get started, users will need a few items. Now some users may already have a few of these items, feel free to modify your cart accordingly.
 
 * [SparkFun Buck Regulator Breakout - 3.3V (AP3429A)](https://www.sparkfun.com/products/21337)
 * [Heat Sink](https://www.sparkfun.com/products/18704 "Thermal tape is included") - Used to help dissipate excess heat
@@ -542,7 +542,7 @@ To get started, users will need a few items. Now some users may already have a f
 
 ## :material-bookshelf:&nbsp;Suggested Reading
 
-As a more sophisticated product, we will skip over the more fundamental tutorials (i.e. [**Ohm's Law**](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law) and [**What is Electricity?**](https://learn.sparkfun.com/tutorials/what-is-electricity)). However, below are a few tutorials that may help users familiarize themselves with various aspects of the board.
+Below, are a few tutorials that may help users familiarize themselves with various aspects of this product:
 
 
 <table class="pdf">
