@@ -27,6 +27,90 @@
 
 
 /* ================================================================================== */
+/* Code Block                                                                         */
+/* ================================================================================== */
+
+/* Fixes highlighting of code blocks in other elements (i.e. content tabs, buttons, etc.) */
+.md-typeset a:focus code, .md-typeset a:hover code {
+	background-color: var(--md-code-fg-color);
+}
+
+
+/* ================================================================================== */
+/* Content Tabs                                                                       */
+/* ================================================================================== */
+
+/* Sets the background color of the labels and creates an outline */
+.md-typeset .tabbed-labels > label {
+  background-color: var(--md-code-bg-color--light);
+  border-top: .1rem solid var(--md-default-fg-color--lighter);
+  border-left: .1rem solid var(--md-default-fg-color--lighter);
+  border-right: .1rem solid var(--md-default-fg-color--lighter);
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+/* Sets background color of active label to accent, when mouse is hovered over item */
+.md-typeset .tabbed-labels > label > a:hover {
+	/* Bright Red - Issue with red code block text */
+  /* background-color: var(--md-accent-fg-color); */
+
+	/* Transparent Red - Issue, not visible in dark theme */
+	/* background-color: var(--md-accent-bg-color--transparent); */
+
+	/* Blue - In light theme, issue with dark blue on black letters */
+	/* background-color: var(--md-typeset-a-color); */
+
+	/* Grey - In light theme, issue with dark grey on black letters (better than blue) */
+	/* background-color: var(--md-primary-fg-color); */
+
+	/* Light Blue */
+	background-color: #547cc6b7;
+
+}
+
+/* Sets kbd button aesthetic */
+.md-typeset {
+	--md-typeset-kbd-color:rgb(80, 80, 80);
+	--md-typeset-kbd-border-color: rgb(175, 175, 175);
+	--md-typeset-kbd-accent-color: hsla(0, 0%, 50%, 0.4);
+}
+
+.md-typeset kbd {
+	color:#ffffff;
+}
+
+
+/* Sets the color of the background and outline on the active label */
+.md-typeset .tabbed-set>input:first-child:checked~.tabbed-labels>:first-child,
+.md-typeset .tabbed-set>input:nth-child(2):checked~.tabbed-labels>:nth-child(2),
+.md-typeset .tabbed-set>input:nth-child(3):checked~.tabbed-labels>:nth-child(3),
+.md-typeset .tabbed-set>input:nth-child(4):checked~.tabbed-labels>:nth-child(4),
+.md-typeset .tabbed-set>input:nth-child(5):checked~.tabbed-labels>:nth-child(5),
+.md-typeset .tabbed-set>input:nth-child(6):checked~.tabbed-labels>:nth-child(6),
+.md-typeset .tabbed-set>input:nth-child(7):checked~.tabbed-labels>:nth-child(7),
+.md-typeset .tabbed-set>input:nth-child(8):checked~.tabbed-labels>:nth-child(8),
+.md-typeset .tabbed-set>input:nth-child(9):checked~.tabbed-labels>:nth-child(9),
+.md-typeset .tabbed-set>input:nth-child(10):checked~.tabbed-labels>:nth-child(10),
+.md-typeset .tabbed-set>input:nth-child(11):checked~.tabbed-labels>:nth-child(11),
+.md-typeset .tabbed-set>input:nth-child(12):checked~.tabbed-labels>:nth-child(12),
+.md-typeset .tabbed-set>input:nth-child(13):checked~.tabbed-labels>:nth-child(13),
+.md-typeset .tabbed-set>input:nth-child(14):checked~.tabbed-labels>:nth-child(14),
+.md-typeset .tabbed-set>input:nth-child(15):checked~.tabbed-labels>:nth-child(15),
+.md-typeset .tabbed-set>input:nth-child(16):checked~.tabbed-labels>:nth-child(16),
+.md-typeset .tabbed-set>input:nth-child(17):checked~.tabbed-labels>:nth-child(17),
+.md-typeset .tabbed-set>input:nth-child(18):checked~.tabbed-labels>:nth-child(18),
+.md-typeset .tabbed-set>input:nth-child(19):checked~.tabbed-labels>:nth-child(19),
+.md-typeset .tabbed-set>input:nth-child(20):checked~.tabbed-labels>:nth-child(20) {
+  background-color: #0000;
+  border-top: .1rem solid var(--md-default-fg-color);
+  border-left: .1rem solid var(--md-default-fg-color);
+  border-right: .1rem solid var(--md-default-fg-color);
+}
+
+
+
+/* ================================================================================== */
 /* Icons                                                                              */
 /* ================================================================================== */
 
@@ -44,9 +128,9 @@
   animation: heart 1000ms infinite;
 }
 
-/* Autodesk Icon ==================================================================== */
-.md-typeset .twemoji.autodesk svg {
-  display:inline-flex;
+/* Enlarge Logos ==================================================================== */
+.md-typeset .twemoji.enlarge-logo svg {
+  display: inline-flex;
   height: 1rem;
   width: 100%;
 }
@@ -214,40 +298,33 @@
 	background-color: var(--md-accent-fg-color) !important;
 }
 
-@media screen and (min-width: 76.25em) {
+/* Abbreviations - Still causes issues */
+/* @media screen and (min-width: 76.25em) {
 	h1, h2, h3, h4, h5, h6 {
 		display: flex;
 		align-items: center;
 		flex-direction: row;
+
+		Fixes word spacing of an abbreviation
+		column-gap: 0.2em;
+
+		Fixes vertical line spacing on an abbreviation
+		position: relative;
+		padding-bottom: 0.3em;
 	}
-
-  /* Sets icon location to left of header */
-	/* .headerlink {
-		order: -1;
-		margin-left: calc(var(--permalink-size) * -1 - var(--permalink-spacing)) !important;
-	} */
-}
-
+} */
 
 
 
 /* ================================================================================== */
-/* Introduction                                                                       */
+/* Grid Cards                                                                         */
 /* ================================================================================== */
 
-/* Sets table width for introduction */
-.md-typeset table.desc {
-  width: 100%;
-  display: table;
-}
-.md-typeset table.desc label{
-  font-size: .85rem;
-}
-
-
-/* ================================================================================== */
-/* Grid Cards                                                                     */
-/* ================================================================================== */
+/* For Bobby - delete */
+/* .grid.cards.products{
+	grid-template-columns: repeat(auto-fill, 280px);
+	justify-content: center;
+} */
 
 /* Sets grid width for introduction */
 .grid.cards.desc {
@@ -272,11 +349,26 @@
 
 
 /* ================================================================================== */
-/* YoutTube Videos                                                                    */
+/* YouTube Videos                                                                     */
 /* ================================================================================== */
 
 /* Auto adjust embedded youtube videos size */
-/* height: 47vw * (viewport/element) percentage */
+/* Aspect ratio: height = 56.25% of width */
+/* 90vw = 90% of (viewport width) */
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .video {
   position: relative;
   width: 100%;
@@ -284,32 +376,85 @@
 .video iframe {
   position: relative;
   top: 0;
-  width: 90vh;
-  min-width: 200px;
-  height: 16.45vw;
-  min-height: 113px;
+  width: 60vw;
+  height: 33.75vw;
   border: 0;
   overflow: hidden;
 }
 
+.video-500px {
+  position: relative;
+  padding-bottom: min(281.25px, 56.25%); /* 16:9 */
+  height: 0;
+	max-width: 500px;
+	max-height: 281.25px;
+}
+.video-500px iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	overflow: hidden;
+}
 
 /* Add compatibility for mobile devices */
-/* height: 47vw * (viewport) percentage */
-@media (max-width: 750px) {
-  .video iframe {
-    height: 47vw;
+/* ================================================================================== */
+/* ================================================================================== */
+
+/* Double ToC */
+/* ================================================================================== */
+
+@media (max-width: 1219px) {
+  .video-container iframe {
+    /* width: 16vw;
+    height: 9vw; */
+    min-width: 200px;
+    min-height: 112.5px;
   }
 }
+
+@media (min-width: 1220px) {
+  .video-container iframe {
+    max-width: 50vw;
+    max-height: 28.125vw;
+  }
+}
+
+@media (min-width:1600px) {
+  .video-container iframe {
+    max-width: 60vw;
+    max-height: 33.75vw;
+  }
+}
+
+/* Single ToC */
+/* ================================================================================== */
+@media (max-width: 960px) {
+  .video-container iframe {
+    /* width: 20vw;
+    height: 11.25vw; */
+    min-width: 200px;
+    min-height: 112.5px;
+  }
+}
+
+/* No ToC */
+/* ================================================================================== */
+/* @media (max-width: 750px) {
+  .video-container iframe {
+    width: 60vw;
+    height: 33.75vw;
+  }
+} */
 
 
 /* ================================================================================== */
 /* Parameters for PDF Rendering                                                       */
 /* ================================================================================== */
 
-/* Hides elemments with <class="pdf">, <class="qr">, or <class="tinyqr"> on webpage (used for the generated PDF) */
-* + .pdf {
-  display: none;
-}
+/* Hides elemments with <class="qr"> or <class="tinyqr"> on webpage (used for the generated PDF) */
+
 .md-typeset *.qr {
   display: none;
 }
@@ -317,15 +462,9 @@
   display: none;
 }
 
-.md-typeset ul.pdf {
-  display: none;
-}
-
 @media print {
-  /* Shows elements with <class="pdf">, <class="qr">, or <class="tinyqr"> on webpage (used for the generated PDF) */
-  * + .pdf {
-    display: contents;
-  }
+  /* Shows elements with <class="qr"> or <class="tinyqr"> on webpage (used for the generated PDF) */
+
   .md-typeset *.qr {
     display: inline-flex;
     align-items: center;
@@ -337,32 +476,8 @@
     width: 40px;
   }
 
-  .grid.cards.hide {
-    display: none;
-  }
-
-  /* Removes borders on tables with <class="pdf"> */
-  table + .pdf {
-    border-style:none;
-  }
-
-  /* Limits images size in table */
-  .pdf img {
-    width: 100%;
-    max-width: 200px;
-  }
-
-  .md-typeset ul.pdf {
-    display: flow-root;
-  }
-
   /* Sets table to 100% of page width */
   .md-typeset table:not([class]) {
-    width: 100%;
-    display: table;
-    table-layout: fixed;
-  }
-  .md-typeset table.pdf {
     width: 100%;
     display: table;
     table-layout: fixed;
@@ -379,10 +494,17 @@
   /* YoutTube Videos                                                                    */
   /* ================================================================================== */
 
+  .video-container iframe {
+    display: none;
+  }
+
   .video iframe {
     display: none;
   }
 
+  .video-500px iframe {
+    display: none;
+  }
 
   /* ================================================================================== */
   /* Grid Cards                                                                         */
@@ -404,42 +526,32 @@
   .md-typeset .grid.grid.cards.col-4 {
 	  grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));
   }
-
-  /* Sets grid card width (not working)
-  Works for File > Print function, but not valid for PDF generator due to issue with Weazy
-  * Refer to https://github.com/Kozea/WeasyPrint/issues/543
-  .md-typeset .grid {
-	display: grid;
-	grid-template-columns: repeat(4, 25%);
-  } */
-  /* Shrinks card width to 25% and font to 8px (kind of works for PDF generator, but doesn't create columns)
-  .md-typeset :is(.cards) {
-	width: 25%;
-	font-size: 8px;
-  } */
-  
   
   /* Sets maximum image size */
   .md-typeset img {
-    max-width:  200px;
-    max-height: 200px;
-  }
-  /* Fixes positioning of admonition icon */
-  .md-typeset :is(.admonition-title,summary):before {
-    top: 0.6rem;
-    left: 0.6rem; 
-  }
-  /* Fixes appearance of admonition icon */
-  .md-typeset :is(.admonition,details)>:last-child {
-	  background-color: transparent; 
-  }
-  /* Fixes margin spacing for lists */
-  .md-typeset ol,ul {
-	  margin-left: 1.5rem;
+    max-width:  350px;
+    max-height: 500px;
   }
 
+
+
+  /* Fixes positioning of admonition icon */
+  /* .md-typeset :is(.admonition-title,summary):before {
+    top: 0.6rem;
+    left: 0.6rem; 
+  } */
+  /* Fixes appearance of admonition icon */
+  /* .md-typeset :is(.admonition,details)>:last-child {
+	  background-color: transparent; 
+  } */
+
+  /* Fixes margin spacing for lists */
+  /* .md-typeset ol,ul {
+	  margin-left: 1.5rem;
+  } */
+
   /* Adjusts page break for PDF generator */
-  article h2,h3,h4,h5,h6,ol,ul {
+  /* article h2,h3,h4,h5,h6,ol,ul {
 	  page-break-before: avoid;
   }
   article div.admonition {
@@ -447,29 +559,29 @@
   }
   article table,ol,ul {
     page-break-inside: auto !important;
-  }
+  } */
 
   /* Displays first tab (workaround to rendering issue) */
-  * + .tabbed-content {
+  /* * + .tabbed-content {
     display: contents;
   }
   * + .tabbed-content .tabbed-block {
     display: contents;
     page-break-after: always;
-  }
+  } */
 
   /* Prevents page break when tabs are embedded in an admonition*/
-  article details.note {
+  /* article details.note {
     display: inline-block;
-    overflow: hidden;
+    overflow: hidden; */
     /* Hardcode max height to match code block size, when tabbed (need to find better alternative) */
-    max-height: 138mm;
-  }
+    /* max-height: 138mm;
+  } */
 
   /* Limits size of code blocks in admonitions (workaround to rendering issue) */
-  .md-typeset :is(pre, code) {
+  /* .md-typeset :is(pre, code) {
     display: inline-flexbox;
     max-height: 120mm;
     overflow: hidden;
-  }
+  } */
 }
