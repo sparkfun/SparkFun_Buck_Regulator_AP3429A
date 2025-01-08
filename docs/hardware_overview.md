@@ -21,7 +21,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 		Eagle is a [CAD]("computer-aided design") program for electronics that is free to use for hobbyists and students. However, it does require an account registration to utilize the software.
 
 		<center>
-		[Download from<br>:autodesk-primary:{ .autodesk }](https://www.autodesk.com/products/eagle/free-download "Go to downloads page"){ .md-button .md-button--primary width="250px" }
+		[Download from<br>:autodesk-primary:{ .enlarge-logo }](https://www.autodesk.com/products/eagle/free-download "Go to downloads page"){ .md-button .md-button--primary width="250px" }
 		</center>
 	
 	??? info ":straight_ruler: Dimensions Tool"

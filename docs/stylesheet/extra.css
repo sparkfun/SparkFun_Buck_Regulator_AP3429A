@@ -44,9 +44,9 @@
   animation: heart 1000ms infinite;
 }
 
-/* Autodesk Icon ==================================================================== */
-.md-typeset .twemoji.autodesk svg {
-  display:inline-flex;
+/* Enlarge Logos ==================================================================== */
+.md-typeset .twemoji.enlarge-logo svg {
+  display: inline-flex;
   height: 1rem;
   width: 100%;
 }

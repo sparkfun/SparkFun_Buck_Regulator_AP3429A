@@ -19,8 +19,8 @@ theme:
   # Theme: https://squidfunk.github.io/mkdocs-material/
   name: material
 
-  # Icon in Browser Tab (must be square img - i.e. 32x32 pixels)
-  favicon: img/sfe_logo_sq.png
+  # Icon in Browser Tab (must be a square image - i.e. 32x32 pixels)
+  favicon: assets/img/sfe-logo.png
 
   # Page Font
   font:
@@ -187,11 +187,13 @@ markdown_extensions:
   - md_in_html
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
-          - overrides/.icons
+          - overrides/.icons/
+
+  # Allows for the rendering of block and inline-block equations
   - pymdownx.arithmatex:
       generic: true
   - toc:
