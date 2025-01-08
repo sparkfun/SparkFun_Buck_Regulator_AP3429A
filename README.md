@@ -5,7 +5,7 @@ SparkFun AP3429A Buck Regulator Breakouts
   <a href="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP3429A/issues" alt="Issues">
     <img src="https://img.shields.io/github/issues/sparkfun/SparkFun_Buck_Regulator_AP3429A.svg" /></a>
   <a href="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP3429A/actions" alt="Actions">
-    <img src="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP3429A/actions/workflows/mkdocs.yml/badge.svg" /></a>
+    <img src="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP3429A/actions/workflows/generate_documentation.yml/badge.svg" /></a>
   <a href="https://github.com/sparkfun/SparkFun_Buck_Regulator_AP3429A/blob/main/LICENSE.md" alt="License">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
   <a href="https://twitter.com/intent/follow?screen_name=sparkfun">

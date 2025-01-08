@@ -131,7 +131,7 @@ theme:
 
 
 # Included MkDocs plugins
-# Add the installation of any new plugins to the ./github/workflows/mkdocs.yml file also
+# Add the installation of any new plugins to the ./github/workflows/generate_documentation.yml file also
 plugins:
   - search
   - typeset
