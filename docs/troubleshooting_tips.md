@@ -24,29 +24,8 @@ On the Buck Regulator boards, users can short/[jumper](https://www.sparkfun.com/
 ## Connecting Batteries
 For lower current applications, users can connect a battery as the power source. However, please be aware of the input voltage range for each board and the limitations of utilizing rechargeable batteries. We recommend a 3xAA battery pack and AA alkaline batteries for novice users to avoid technical complications.
 
-<table class="pdf">
-	<tr>
-		<td>
-			<a href="https://www.sparkfun.com/products/10891">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/5/9/7/5/10891-01b.jpg">
-				</center>
-				<h3 class="title">Battery Holder 3xAA with Cover and Switch - Bare Wire</h3>
-			</a>
-			PRT-10891
-		</td>
-		<td>
-			<a href="https://www.sparkfun.com/products/15201">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/3/6/2/5/15201-Panasonic_Alkaline_Battery_-_AA-02.jpg">
-				</center>
-				<h3 class="title">Panasonic Alkaline Battery - AA</h3>
-			</a>
-			PRT-15201
-		</td>
-    </tr>
-</table>
 
-
-<div class="grid cards hide" markdown>
+<div class="grid cards" markdown>
 
 -   <a href="https://www.sparkfun.com/products/10891">**Battery Holder 3xAA with Cover and Switch - Bare Wire**<br>
 	PRT-10891

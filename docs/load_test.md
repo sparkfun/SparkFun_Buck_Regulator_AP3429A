@@ -17,29 +17,7 @@ To test the buck regulator boards, users will need the following hardware:
 	* We are using the [80W DC Power Supply](https://www.sparkfun.com/products/retired/9291) *(retired product)*
 
 
-<table class="pdf">
-	<tr>
-		<td>
-			<a href="https://www.sparkfun.com/products/retired/9291">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/2/8/1/6/09291-1.jpg">
-				</center>
-				<h3 class="title">Power Supply - 80W DC Switching Mode</h3>
-			</a>
-			TOL-09291
-		</td>
-		<td>
-			<a href="https://www.sparkfun.com/products/14449">
-				<center><img src="https://cdn.sparkfun.com/r/140-140/assets/parts/1/2/4/7/9/14449-SparkFun_Variable_Load_Kit-05.jpg">
-				</center>
-				<h3 class="title">SparkFun Variable Load Kit</h3>
-			</a>
-			KIT-14449
-		</td>
-    </tr>
-</table>
-
-
-<div class="grid cards hide" markdown>
+<div class="grid cards" markdown>
 
 -   <a href="https://www.sparkfun.com/products/retired/9291">**Power Supply - 80W DC Switching Mode**<br>
 	TOL-09291

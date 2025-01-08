@@ -19,5 +19,5 @@ icon: fontawesome/solid/scroll
 # Test Setup
 --8<-- "./docs/load_test.md:5"
 
-# Resources:
+# Resources
 --8<-- "./docs/resources.md"

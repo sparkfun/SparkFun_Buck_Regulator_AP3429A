@@ -219,23 +219,7 @@ PTH *(slots)* are provided for users to add a [barrel jack connector](https://ww
 	Our recommended [barrel jack connector](https://www.sparkfun.com/products/119) is a 5.5mm barrel jack.
 
 
-<center>
-<table class="pdf">
-	<tr>
-		<td align="center">
-			<a href="../img/hookup_guide/barrel_jack-top.jpg"><img src="../img/hookup_guide/barrel_jack-top.jpg" width="200"></a><br>
-			<i>The plated slots for a barrel jack connector on the top side of the AP3429A Buck Regulator Breakout boards.</i>
-		</td>
-		<td align="center">
-			<a href="../img/hookup_guide/barrel_jack-bottom.jpg.jpg"><img src="../img/hookup_guide/barrel_jack-bottom.jpg" width="200"></a><br>
-			<i>The plated slots for a barrel jack connector on the bottom side of the AP3429A Buck Regulator Breakout boards.</i>
-		</td>
-	<tr>
-</table>
-</center>
-
-
-<div class="grid cards hide" markdown>
+<div class="grid cards" markdown>
 
 -   <figure markdown>
 	[![](../img/hookup_guide/barrel_jack-top.jpg)](../img/hookup_guide/barrel_jack-top.jpg "Click to enlarge")
@@ -290,34 +274,8 @@ Enable pin on the AP3429A Buck Regulator Breakout boards.
 
 The [AP3429A](../component_documentation/AP3429A.pdf) from [Diodes Incorporated](https://www.diodes.com/), is a 2A DC-DC buck converter with a wide input voltage range of 2.7V to 5.5V. Under a no-load condition, the quiescent current is 90&micro;A; and when disabled, the device shutdown supply current is less than 1&micro;A.
 
-<center>
-<table class="pdf" markdown="1">
-<tr markdown="1">
-<td markdown="block">
-Features:
 
-* VIN: 2.7V to 5.5V
-* VOUT: 0.6V to VIN
-* 2A Continuous Output Current
-* 90&micro;A No-Load Quiescent Current
-* 1MHz Switching Frequency
-* Protection Circuitry
-    * Undervoltage Lockout (UVLO)
-    * Input Overvoltage Protection
-    * Over Current Protection
-        * Cycle-by-Cycle Peak Current Limit
-    * Thermal Shutdown
-
-</td>
-<td align="center">
-<a href="../img/hookup_guide/AP3429A.jpg"><img src="../img/hookup_guide/AP3429A.jpg" width="200"></a><br>
-<i>AP3429A chip on the AP3429A Buck Regulator Breakout boards.</i>
-</td>
-</tr>
-</table>
-</center>
-
-<div class="grid cards hide" markdown>
+<div class="grid cards" markdown>
 
 -   Features:
 
@@ -399,23 +357,8 @@ Example circuit for the AP3429A.
 
 Since it would be difficult to differentiate the voltage output based on the small SMD parts, we provide a simple indicator for the configured output voltage of each board.
 
-<center>
-<table class="pdf">
-	<tr>
-		<td align="center">
-			<a href="../img/hookup_guide/indicator-3V3.jpg"><img src="../img/hookup_guide/indicator-3V3.jpg" width="200"></a><br>
-			<i>The output voltage indicator for the <b>3.3V</b> Buck Regulator Breakout.</i>
-		</td>
-		<td align="center">
-			<a href="../img/hookup_guide/indicator-1V8.jpg"><img src="../img/hookup_guide/indicator-1V8.jpg" width="200"></a><br>
-			<i>The output voltage indicator for the <b>1.8V</b> Buck Regulator Breakout.</i>
-		</td>
-	<tr>
-</table>
-</center>
 
-
-<div class="grid cards hide" markdown>
+<div class="grid cards" markdown>
 
 -   <figure markdown>
 	[![](../img/hookup_guide/indicator-3V3.jpg)](../img/hookup_guide/indicator-3V3.jpg "Click to enlarge")
