@@ -431,7 +431,7 @@ Below, are a few tutorials that may help users familiarize themselves with vario
 	---
 
 	<figure markdown>
-	![Tutorial Thumbnail](https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP63357DV-7/img/hookup_guide/test_setup.jpg)
+	![Tutorial Thumbnail](https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP63357DV-7/assets/img/thumbnail.jpg)
 	</figure></a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/5">
