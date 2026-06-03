@@ -214,11 +214,6 @@ plugins:
       repository: sparkfun/SparkFun_Buck_Regulator_AP3429A
       branch: main
 
-  # Add git authors at bottom of the page
-  - git-authors:
-      # Disables plugin on local builds
-      enabled: !ENV [CI, false]
-
   # Enables use of Git submodules and larger code base
   - monorepo:
       # Disables plugin on local builds
