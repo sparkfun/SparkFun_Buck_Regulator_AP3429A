@@ -125,11 +125,11 @@ This connector is compatible with several of our [LiPo batteries and battery pac
 
 !!! tip "Disconnecting Hardware"
     <p><b><span style="color:red">DO <u>NOT</u></span></b> remove batteries by pulling on their wires. Instead, it is recommended that pair of dikes (i.e. diagonal wire cutters), pliers, or tweezers be used to pull on the JST connector housing, to avoid damaging the battery wiring.</p>
-    <p><center>
+    <p style="text-align: center;" markdown>
         <a href="https://docs.sparkfun.com/SparkFun_Thing_Plus_ESP32_WROOM_C/img/hookup_guide/assembly_batt_removal.jpg"><img alt="Disconnect battery w/ dikes" title="Click to enlarge" src="https://docs.sparkfun.com/SparkFun_Thing_Plus_ESP32_WROOM_C/img/hookup_guide/assembly_batt_removal.jpg" width="200"></a>
         <br>
         <i>Using a pair of dikes to disconnect a battery.</i>
-    </center></p>
+    </p>
 
 
 ## Heat Sink

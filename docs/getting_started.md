@@ -28,9 +28,9 @@ These boards feature the AP3429A from [Diodes Inc.](https://www.diodes.com/), a 
 
 	This board provides a regulated **3.3V** output with an input voltage range of **3.9V - 5.5V**.
 
-	<center>
+	<article style="text-align: center;" markdown>
 	[![QR code to product page](../img/qr_code/product-21337.png){ .tinyqr }&nbsp;&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/21337){ .md-button .md-button--primary }
-	</center>
+	</article>
 
 -	<a href="https://www.sparkfun.com/products/21338">
 	**1.8V Buck Regulator Breakout - AP3429A**<br>
@@ -44,9 +44,9 @@ These boards feature the AP3429A from [Diodes Inc.](https://www.diodes.com/), a 
 
 	This board provides a regulated **1.8V** output with an input voltage range of **2.7V - 5.5V**.
 
-	<center>
+	<article style="text-align: center;" markdown>
 	[![QR code to product page](../img/qr_code/product-21338.png){ .tinyqr }&nbsp;&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/21338){ .md-button .md-button--primary }
-	</center>
+	</article>
 
 </section>
 

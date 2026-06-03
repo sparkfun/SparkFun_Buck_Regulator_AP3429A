@@ -50,6 +50,6 @@ Diodes Incorporated also provides great resources for the AP3429A Buck Regulator
     * :material-file-document-multiple: [Technical Documentation](ps://www.diodes.com/part/view/AP3429/#tab-details)
 * :material-head-question: [Technical Support Page](https://www.diodes.com/about/contact-us/technical-support/)
 
-<center>
+<article style="text-align: center;" markdown>
 ![QR code to the hookup guide](../img/qr_code/hookup_guide.png){ .qr }
-</center>
+</article>

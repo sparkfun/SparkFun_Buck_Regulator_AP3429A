@@ -20,19 +20,19 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 	??? info ":octicons-download-16:{ .heart } Eagle - Free Download!"
 		Eagle is a [CAD]("computer-aided design") program for electronics that is free to use for hobbyists and students. However, it does require an account registration to utilize the software.
 
-		<center>
+		<article style="text-align: center;" markdown>
 		[Download from<br>:autodesk-primary:{ .enlarge-logo }](https://www.autodesk.com/products/eagle/free-download "Go to downloads page"){ .md-button .md-button--primary width="250px" }
-		</center>
+		</article>
 	
 	??? info ":straight_ruler: Dimensions Tool"
 		This video from Autodesk demonstrates how to utilize the dimensions tool in Eagle, to include additional measurements:
 
-		<center>
+		<article style="text-align: center;" markdown>
 		<div class="video">
 		<iframe src="https://www.youtube.com/embed/dZLNd1FtNB8" title="EAGLE Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		![QR code to play video](../img/qr_code/dimension_tool.png){ .qr }
-		</center>
+		</article>
 
 
 ## Power
@@ -75,8 +75,8 @@ Below, is a general summary of the circuitry on the board:
 
 		---
 
-		<center>
-		<table markdown>
+
+		<table style="text-align: center;" markdown>
 		<tr markdown>
 		<td rowspan="2" align="center" style="vertical-align:middle;" markdown>
 		Input<br>Voltage (V)
@@ -151,7 +151,6 @@ Below, is a general summary of the circuitry on the board:
 		<td align="center" markdown>N/A</td>
 		</tr>
 		</table>
-		</center>
 
 		*The values in the table above, were measured with a [Power Profiler Kit II](https://www.nordicsemi.com/Products/Development-hardware/Power-Profiler-Kit-2) and averaged over a 10s period.*
 
@@ -176,13 +175,13 @@ Below, is a general summary of the circuitry on the board:
 
 There are several options available for users to connect power to and from their AP3429A buck regulator breakout board.
 
-<center>
+<article style="text-align: center;" markdown>
 
 | Input Options  | Output Power | Enable Pin |
 | :------------- | :----------- | :--------- |
 | <ul><li>PTH Pins</li><li>Screw Terminal</li><li>Barrel Jack</li></ul> | <ul><li>PTH Pins</li><li>Screw Terminal</li></ul> | <ul><li>PTH Pins</li></ul> |
 
-</center>
+</article>
 
 
 #### PTH Pins
